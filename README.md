@@ -46,4 +46,4 @@ jerryn-joy.github.io/
 
 ## 🚀 Featured Project
 
-### [AI-Powered Lead Management System](https://github.com/jerryn-joy/lead-management-project)
+### [AI-Powered Lead Management System](https://github.com/jerryn-joy/Lead-Qualification-Pipeline)
