@@ -304,16 +304,17 @@ h3 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#experience .card-content ul {
+/* --- Global Bullet Point Reset --- */
+ul {
   list-style-type: disc !important;
   list-style-position: inside !important;
-  margin-left: 1.5rem !important;
+  margin: 1rem 0 1rem 1.2rem !important;
   padding-left: 0 !important;
 }
 
-#experience .card-content ul li {
+li {
   display: list-item !important;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .card:hover {
