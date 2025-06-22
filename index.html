@@ -43,12 +43,12 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
   <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <meta name="theme-color" content="#ffffff" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
@@ -59,25 +59,74 @@
   </noscript>
 
   <!-- Sidebar Navigation -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
-      <li class="logo">
-        <a id="logo-container" href="#intro" class="brand-logo grey-blue-text" aria-label="Navigate to top">
-          <img src="assets/joy_jerryn_cheenical_photo.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
-      <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
-      <li class="bold"><a href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
-      <li class="bold"><a href="#projects" class="waves-effect waves-dark teal-text"><i class="mdi-av-my-library-books small"></i><span>Projects</span></a></li>
-      <li class="bold"><a href="#skills" class="waves-effect waves-dark teal-text"><i class="mdi-action-assessment small"></i><span>Skills</span></a></li>
-      <li class="bold"><a href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
-      <li class="bold"><a href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-      <li class="bold"><a href="https://jerryn-joy.github.io/assets/Resume.pdf" target="_blank" class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a></li>
-    </ul>
-  </nav>
+  <!-- Desktop Sidebar Navigation -->
+<nav class="hide-on-small-only">
+  <ul class="sidenav sidenav-fixed section table-of-contents">
+    <li class="logo">
+      <a
+        id="logo-container"
+        href="#intro"
+        class="brand-logo grey-blue-text"
+        aria-label="Navigate to top"
+      >
+        <img
+          src="/assets/joy_jerryn_cheenical_photo.jpg"
+          class="profile-pic circle responsive-img"
+          alt="avatar"
+        />
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#about" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">person</i>
+        <span>About</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#experience" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">trending_up</i>
+        <span>Experience</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#projects" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">library_books</i>
+        <span>Projects</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#skills" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">assessment</i>
+        <span>Skills</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#education" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">school</i>
+        <span>Education</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#contact" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">mail</i>
+        <span>Contact</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a
+        href="https://jerryn-joy.github.io/assets/Resume.pdf"
+        target="_blank"
+        class="waves-effect waves-dark teal-text"
+      >
+        <i class="material-icons">folder_open</i>
+        <span>Resume</span>
+      </a>
+    </li>
+  </ul>
+</nav>
   <!-- Mobile Nav Trigger -->
   <nav class="hide-on-large-only trigger z-depth-1">
-    <a href="#" data-activates="slide-out" class="button-collapse">
+    <a href="#" data-target="slide-out" class="sidenav-trigger">
       <i class="material-icons">menu</i>
     </a>
     <div class="name-title">
@@ -88,26 +137,79 @@
 
   <!-- Mobile Sidebar Nav -->
   <nav class="hide-on-large-only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold"><a href="#about" class="waves-effect waves-dark teal-text"><i class="mdi-social-person small"></i><span>About</span></a></li>
-      <li class="bold"><a href="#experience" class="waves-effect waves-dark teal-text"><i class="mdi-action-trending-up small"></i><span>Experience</span></a></li>
-      <li class="bold"><a href="#projects" class="waves-effect waves-dark teal-text"><i class="mdi-av-my-library-books small"></i><span>Projects</span></a></li>
-      <li class="bold"><a href="#skills" class="waves-effect waves-dark teal-text"><i class="mdi-action-assessment small"></i><span>Skills</span></a></li>
-      <li class="bold"><a href="#education" class="waves-effect waves-dark teal-text"><i class="mdi-social-school small"></i><span>Education</span></a></li>
-      <li class="bold"><a href="#contact" class="waves-effect waves-dark teal-text"><i class="mdi-content-mail small"></i><span>Contact</span></a></li>
-      <li class="bold"><a href="https://jerryn-joy.github.io/assets/Resume.pdf" target="_blank" class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a></li>
+    <ul id="slide-out" class="sidenav">
+        <li class="logo">
+      <a
+        id="logo-container"
+        href="#intro"
+        class="brand-logo grey-blue-text"
+        aria-label="Navigate to top"
+      >
+        <img
+          src="/assets/joy_jerryn_cheenical_photo.jpg"
+          class="profile-pic circle responsive-img"
+          alt="avatar"
+        />
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#about" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">person</i>
+        <span>About</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#experience" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">trending_up</i>
+        <span>Experience</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#projects" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">library_books</i>
+        <span>Projects</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#skills" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">assessment</i>
+        <span>Skills</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#education" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">school</i>
+        <span>Education</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a href="#contact" class="waves-effect waves-dark teal-text">
+        <i class="material-icons">mail</i>
+        <span>Contact</span>
+      </a>
+    </li>
+    <li class="bold">
+      <a
+        href="https://jerryn-joy.github.io/assets/Resume.pdf"
+        target="_blank"
+        class="waves-effect waves-dark teal-text"
+      >
+        <i class="material-icons">folder_open</i>
+        <span>Resume</span>
+      </a>
+    </li>
     </ul>
   </nav>
 
   <!-- Main Content -->
   <main>
   <!-- Intro Section -->
-  <section id="intro" class="section scrollspy full-height">
+  <section id="intro" class="section scrollspy full-height intro-bg">
   <div class="overlay"></div>
-  <div class="container">
-    <div class="col-md-9">
-      <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-        <div class="caption">
+  <div class="container valign-wrapper">
+    <div class="row">
+      <div class="col s12 m9 white-text">
+        <div class="content section-padding">
           <h2>Hi, I am <span class="teal">Jerryn Joy</span>!</h2>
           <h5>A <span class="typing" style="color:#004d40;"></span></h5>
 
@@ -122,7 +224,7 @@
           </h5>
         </div>
 
-        <!-- social icons with its own bottom gap -->
+        <!-- social icons -->
         <div class="social" style="margin-bottom: 1.5em;">
           <a href="https://www.linkedin.com/in/jerryn-cheenical-joy/" target="_blank">
             <button class="icon-btn linkedin">
@@ -136,15 +238,15 @@
           </a>
         </div>
 
-        <!-- buttons with a little top gap -->
-        <div class="buttons" style="margin-top: 0.5em;">
+        <!-- action buttons -->
+        <div class="buttons">
           <a href="#about" class="contactme">Read More</a>
           <a href="#contact" class="contactme">Contact Me</a>
         </div>
       </div>
     </div>
   </div>
-  </section>
+</section>
 
     <!-- About Section -->
   <section id="about" class="section scrollspy">
@@ -307,7 +409,8 @@
           <!-- Card Reveal Section -->
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">
-              More Info<i class="mdi-navigation-close right"></i>
+              More Info
+              <i class="fa fa-times right" style="cursor: pointer;"></i>
             </span>
             <ul>
               <li><b>Goal:</b> Qualify vendor leads using AI, send only hot leads to HubSpot.</li>
@@ -477,28 +580,22 @@
 </main>
 
   <!-- JavaScript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="/assets/vendor/typed.js/typed.min.js"></script>
 
-  <script>
-    // Typing effect
-    var typed = new Typed('.typing', {
-      strings: ["AI Product Manager", "Automation Specialist", "AI Product Owner", "AI Enthusiast"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Initialize only the sidenav & scrollspy you actually use
+    M.Sidenav.init(document.querySelectorAll('.sidenav'), { edge: 'left' });
+    M.ScrollSpy.init(document.querySelectorAll('.scrollspy'), { scrollOffset: 64 });
+    new Typed('.typing', {
+      strings: ['AI Product Owner', 'Automation Specialist', 'AI Enthusiast'],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true
     });
-
-    // Initialize Materialize components
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy();
-      $(".button-collapse").sideNav({
-        menuWidth: 190,
-        edge: "left",
-        closeOnClick: true
-      });
-    });
-  </script>
+  });
+</script>
 </body>
 </html>
