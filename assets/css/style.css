@@ -680,3 +680,25 @@ img.responsive-img {
     right:       auto    !important;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  /* bump .readme & .contactme up by +5px on every side */
+  .buttons a.readme,
+  .buttons a.contactme {
+    /* original was 11px top/bottom, 35px left/right;
+       now we do calc(original + 5px) */
+    padding-left:5px !important;
+    padding-right:5px !important;
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .social {
+    margin-top: -41px !important;
+    margin-bottom: 0em !important;
+  }
+}
