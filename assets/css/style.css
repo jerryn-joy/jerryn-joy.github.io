@@ -405,3 +405,18 @@ h3 {
   font-weight: bold;
   border-radius: 8px 8px 0 0;
 }
+/* --- Unified Logo Styling for Visual Consistency --- */
+.logo img,
+.card img,
+img.responsive-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;       /* Keeps image inside box without stretching */
+  aspect-ratio: 1 / 1;       /* Enforces square shape */
+  background-color: #fff;    /* Optional: gives consistent background */
+  padding: 6px;
+  border-radius: 8px;        /* Slight rounding for modern look */
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
