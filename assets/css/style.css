@@ -668,7 +668,7 @@ img.responsive-img {
 @media only screen and (min-width: 601px) {
   .row .col.m9 {
     /* originally “margin-left: auto;” in materialize.min.css */
-    margin-left: 40px !important;
+    margin-left: 80px !important;
     right:       auto    !important;
   }
 }
