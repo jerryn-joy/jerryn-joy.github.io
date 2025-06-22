@@ -1,17 +1,14 @@
+/* --- Profile Picture --- */
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width: 130px;
+  max-height: 130px;
   width: auto;
   height: auto;
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  margin: -31px;
+  margin-left: -7px;
+  border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50% !important;
 }
 
@@ -20,20 +17,20 @@
   height: auto;
 }
 
+/* --- Tracker --- */
 .tracker {
-  /* visibility: hidden; */
   position: fixed;
-  /* margin-inline-end: auto;  */
-  bottom: 0; 
+  bottom: 0;
   right: 0;
 }
 
+/* --- Social Media Icons --- */
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
 .social {
   margin: 0 auto;
   width: auto;
   text-align: inherit;
-  /* padding: 10px; */
 }
 
 .icon-btn {
@@ -50,37 +47,20 @@
   margin: 4px;
 }
 
-.github {
-  color: black;
-}
-
-.linkedin {
-  color: #0077b5;
-}
-
-.angellist {
-  color: grey;
-}
+.github { color: black; }
+.linkedin { color: #0077b5; }
+.angellist { color: grey; }
 
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
 }
 
-.linkedin:hover {
-  background-color: #0077b5;
-}
+.linkedin:hover { background-color: #0077b5; }
+.angellist:hover { background-color: grey; }
+.github:hover { background-color: black; }
 
-.angellist:hover {
-  background-color: grey;
-}
-
-.github:hover {
-  background-color: black;
-}
-
-/* Buttons - Read Me, Contact Us */
-
+/* --- Buttons --- */
 .readme {
   position: relative;
   padding: 11px 35px;
@@ -92,13 +72,7 @@
   letter-spacing: 1px;
   display: inline-block;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
 }
-
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
 
 .contactme {
   position: relative;
@@ -112,47 +86,30 @@
   display: inline-block;
   margin-top: 1.5em;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
 }
 
-.contactme:hover{
+.contactme:hover {
   color: #00796b;
   background-color: white;
 }
-/* main body */
 
-/* body-color */
-
+/* --- General Body Styling --- */
 body {
   color: #333;
   font-size: 18px;
 }
 
-/* body {
-  color: black;
-  font-size: 18px;
-} */
-
-/* main a -- links */
-
-/* a {
-  color: #009688;
-} */
-
 a {
-  color: #004d40;
+  color: var(--primary-color, #004d40);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 
-/* main blockqoute */
-
-/* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-} */
+a:hover {
+  color: var(--highlight-cyan);
+  border-bottom: 2px solid var(--highlight-cyan);
+}
 
 blockquote {
   border-left: 5px solid #795548;
@@ -172,19 +129,12 @@ blockquote * {
   text-align: center;
 }
 
-/* main nav */
-
+/* --- Navigation --- */
 nav {
   background: white;
   box-shadow: none;
   height: 0;
 }
-
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
 
 nav i {
   padding: 0 15px;
@@ -192,48 +142,27 @@ nav i {
   top: 5px;
 }
 
-/* main */
-
-/* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-} */
-
+/* --- Main --- */
 main {
   background: url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
 }
 
-dl {
-  margin-top: 0.5rem;
-}
-
+/* definition lists */
+dl { margin-top: 0.5rem; }
 dd {
   display: inline-block;
   font-weight: 500;
   margin-left: 0;
 }
-
 dt {
   display: inline-block;
   margin-left: 0.5rem;
 }
 
-ul.side-nav {
-  width: 190px;
-}
-
-ul.side-nav li {
-  padding: 0;
-}
-
-/* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-} */
+/* --- Side Navigation --- */
+ul.side-nav { width: 190px; }
+ul.side-nav li { padding: 0; }
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
@@ -243,18 +172,11 @@ ul.side-nav.fixed a {
   padding: 10px 0 12px;
 }
 
-ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+ul.table-of-contents li.logo a.active,
+ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
-
-/* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
-  box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
-} */
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
@@ -269,12 +191,14 @@ ul.side-nav.fixed li.logo a {
   line-height: 100%;
 }
 
-ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
+ul.table-of-contents li:not(.logo) a.active,
+ul.table-of-contents li:not(.logo) a:hover {
   background-color: #fafafa;
   border-left: 3px solid;
 }
 
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
+ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
+ul#slide-out li:not(.logo) a span {
   color: #333 !important;
 }
 
@@ -283,6 +207,7 @@ li.logo span {
   font-size: 14px;
 }
 
+/* --- Brand Logo --- */
 .brand-logo h1 {
   font-size: inherit;
   line-height: inherit;
@@ -290,10 +215,12 @@ li.logo span {
   font-weight: inherit;
 }
 
+/* --- Container --- */
 .container {
   width: 95%;
 }
 
+/* --- Headings and Sections --- */
 h3 {
   font-weight: 200;
   margin-bottom: 60px;
@@ -312,13 +239,7 @@ h3 {
   height: 100vh;
 }
 
-/* Original */
-
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
-} */
-
+/* --- Intro Section --- */
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
@@ -332,18 +253,9 @@ h3 {
   top: 0;
 }
 
-/* #intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-} */
-
 #intro.section .container *:not(span) {
   font-weight: 300;
-  /* font-weight: 400; */
   line-height: 150%;
-  /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -364,14 +276,26 @@ h3 {
   width: 100%;
 }
 
+/* --- Waves Effect --- */
 .waves-effect.waves-blue .waves-ripple {
-  /* The alpha value allows the text and background color
-   of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
 }
 
+/* --- Card Styling --- */
 .card {
   margin-bottom: 60px;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card ul li {
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card .role {
@@ -413,165 +337,98 @@ h3 {
   text-transform: uppercase;
 }
 
-#experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
+/* --- Accent Color System --- */
+:root {
+  --primary-color: #0e5149;
+  --primary-tint1: #276a62;
+  --secondary-color: #f7f7f7;
+  --tertiary-color: #808080;
+  --accent-orange: #ffab40;
+  --highlight-cyan: #5adbb5;
+  --bg-mint: #e6fff9;
+  --success-green: #4caf50;
+  --error-red: #d64a3b;
+}
+
+/* Accent CTA Button */
+.btn-accent {
+  padding: 11px 35px;
+  background-color: var(--accent-orange);
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 15px;
   border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-#experience .card .col.s12.m2 a {
+.btn-accent:hover {
+  background-color: var(--primary-tint1);
+  color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* Success and Error Buttons */
+.btn-success {
+  background-color: var(--success-green);
+  color: var(--secondary-color);
+}
+.btn-success:hover {
+  background-color: #3d8b40;
+}
+
+.btn-danger {
+  background-color: var(--error-red);
+  color: var(--secondary-color);
+}
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Section Styling */
+.section-alt {
+  background-color: var(--bg-mint);
+  padding: 40px;
+  border-radius: 8px;
+  color: var(--primary-color);
+}
+
+/* Highlighted Header */
+.card-header-highlight {
+  background-color: var(--accent-orange);
+  padding: 10px 20px;
+  color: var(--primary-color);
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Unified Logo Styling */
+.logo img,
+.card img,
+img.responsive-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  padding: 2px;
+  border-radius: 8px;
   display: block;
-}
-
-#experience .card .col.s12.m2 a img {
-  max-height: 60px;
-}
-
-.card-action span {
-  font-size: 85%;
-  color: #666;
-}
-
-.card ul {
-  margin-bottom: 0;
-}
-
-.card ul li {
-  line-height: 200%;
-  list-style-type: disc;
-  margin-left: 24px;
-}
-
-.card ul li li {
-  color: #666;
-  font-size: 13px;
-}
-
-.card .card-title {
-  font-size: 24px;
-}
-
-.card .card-content .card-title {
-  line-height: 2.5rem;
-}
-
-.card i.right {
-  margin-left: 10px;
-}
-
-a.hoverline {
-  border-bottom: 3px solid transparent !important;
-  padding: 3px 3px 0 3px;
-  transition: 0.25s all;
-  -moz-transition: 0.25s all;
-  -webkit-transition: 0.25s all;
-}
-
-/* main a.hoverline */
-
-/* a.hoverline:hover {
-  border-bottom: 3px solid #24305e !important;
-} */
-
-a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
-}
-
-#skills .card.large {
-  height: 360px;
-}
-
-#skills h4 {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-}
-
-#skills .col img.responsive-img {
   margin: 0 auto;
-  max-height: 100px;
-  padding-bottom: 10px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
-.card.large .card-content p {
-  color: inherit;
-  margin: 0;
-  padding: 30px 0;
-}
+/* --- Responsive tweaks from alpha --- */
 
-#experience .card-content .row {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-.card.large .card-image {
-  height: 230px;
-}
-
-.card.large .card-content {
-  height: auto;
-}
-
-.card.medium .card-image {
-  height: 240px;
-}
-
-.card-action a.btn-floating {
-  margin-bottom: 0;
-}
-
-#contact a:not(.btn-floating) {
-  bottom: 6px;
-  left: 20px;
-  position: relative;
-}
-
-#experience .col.s12.m2 {
-  text-align: center;
-}
-
-.fa-external-link:before {
-  left: 3px;
-  position: relative;
-  top: 2px;
-}
-
-small {
-  display: none;
-}
-
-.grey-text {
-  color: #666 !important;
-}
-
-/* main .teal-text */
-
-.teal-text {
-  color: #008073 !important;
-}
-
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
-
-/* .teal */
-
-.teal {
-  background-color: #008073 !important;
-}
-
-/* .teal {
-  background-color: #00695c !important;
-} */
-
+/* Large desktops */
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
   }
 }
 
+/* Mid-large screens */
 @media (max-width: 1360px) {
   .card ul li {
     font-size: 14px;
@@ -580,28 +437,38 @@ small {
   }
 }
 
+/* Medium screens */
 @media (max-width: 1160px) {
   .card ul li {
     line-height: 150%;
   }
 }
 
+/* Tablets / small desktops */
 @media (max-width: 992px) {
+  /* existing beta */
   main {
-    padding-left: 0px;
+    padding-left: 0 !important;
     padding-top: 64px;
   }
+  nav {
+    height: 64px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  .container {
+    padding: 0 10px;
+  }
+
+  /* from alpha */
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
   }
-  nav {
-    background: #fff;
-    height: 64px;
-    position: absolute;
-  }
-  nav a.button-collapse, nav a.button-collapse i {
+  nav a.button-collapse,
+  nav a.button-collapse i {
     color: #009688;
     height: 56px;
     line-height: 56px;
@@ -627,7 +494,8 @@ small {
     width: 100%;
     position: absolute;
   }
-  .name-title>span, .name-title>a {
+  .name-title > span,
+  .name-title > a {
     position: relative;
     line-height: 20px;
   }
@@ -639,7 +507,8 @@ small {
     display: block;
     font-size: 14px;
   }
-  h3, .container {
+  h3,
+  .container {
     position: relative;
     top: 64px;
   }
@@ -653,7 +522,24 @@ small {
   }
 }
 
+/* Mobile phones */
 @media (max-width: 600px) {
+  /* existing beta */
+  h2 {
+    font-size: 22px;
+    line-height: 140%;
+  }
+  .card .card-content .card-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .icon-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+
+  /* from alpha */
   h2 {
     font-size: 22px;
     line-height: 200%;
@@ -661,10 +547,6 @@ small {
   }
   #intro.section .container *:not(span) {
     padding: 0;
-  }
-  .card .card-content .card-title {
-    font-size: 20px;
-    line-height: 24px;
   }
   #experience span.card-title {
     text-align: center;
