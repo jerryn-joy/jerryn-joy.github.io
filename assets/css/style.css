@@ -1,12 +1,12 @@
 :root {
-  --bg-color: #f6f8fa;
-  --text-color: #0b0c0e;
-  --accent-color: #10a37f;
-  --link-color: #0c7db1;
-  --muted-color: #8d8d8d;
-  --border-color: rgba(16, 163, 127, 0.4);
-  --hover-bg: rgba(16, 163, 127, 0.1);
-  --card-shadow: rgba(0, 0, 0, 0.08);
+  --bg-color: #fdf6ec;
+  --text-color: #1c1c1c;
+  --accent-color: #ff6b6b;
+  --link-color: #ff884d;
+  --muted-color: #b0a8a8;
+  --border-color: rgba(255, 107, 107, 0.4);
+  --hover-bg: rgba(255, 107, 107, 0.1);
+  --card-shadow: rgba(0, 0, 0, 0.1);
 }
 
 /* --- Profile Picture --- */
