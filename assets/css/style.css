@@ -1,6 +1,11 @@
 /* --- Import & Variables --- */
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
+html {
+  /* equals the height of your fixed nav+header */
+  scroll-padding-top: 64px;
+}
+
 :root {
   --primary-color: #0e5149;
   --primary-tint1: #276a62;
@@ -105,7 +110,7 @@ body {
   font-size: 18px;
 }
 a {
-  color: var(--primary-color, #004d40);
+  color: var(--primary-color);
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: color 0.3s ease, border-bottom 0.3s ease;
@@ -136,8 +141,6 @@ nav {
   box-shadow: none;
   height: 0;
 }
-
-/* icon inside nav */
 nav i {
   padding: 0 15px;
   position: relative;
@@ -147,7 +150,6 @@ nav i {
 /* --- Main --- */
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
 }
 
 /* DL styling */
@@ -165,47 +167,62 @@ dt {
 }
 
 /* --- Side Navigation --- */
-ul.side-nav {
+.sidenav {
   width: 190px;
 }
-ul.side-nav li {
+.sidenav li {
   padding: 0;
 }
-ul.side-nav.fixed a {
+/* set default link color in sidebar */
+.sidenav.sidenav-fixed a {
   box-sizing: content-box;
   color: rgb(16, 202, 56);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
 }
-ul.table-of-contents li.logo a.active,
+
+/* — Logo styling (unchanged) — */
+ul.table-of-contents li.logo a,
 ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
-ul.side-nav.fixed li.logo {
+.sidenav.sidenav-fixed li.logo {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
 }
-ul.side-nav.fixed li.logo a {
+.sidenav.sidenav-fixed li.logo a {
   font-weight: 200;
   line-height: 100%;
 }
-ul.table-of-contents li:not(.logo) a.active,
-ul.table-of-contents li:not(.logo) a:hover {
+
+/* — Desktop TOC: active & hover for non-logo items — */
+ul.table-of-contents li:not(.logo) a:hover,
+ul.table-of-contents li.active a {
   background-color: #fafafa;
-  border-left: 3px solid;
+  border-left: 3px solid var(--primary-color);
 }
-ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
-ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+ul.table-of-contents li.active a i,
+ul.table-of-contents li.active a span,
+ul.table-of-contents li:not(.logo) a:hover i,
+ul.table-of-contents li:not(.logo) a:hover span {
+  color: var(--primary-color) !important;
 }
-li.logo span {
-  display: block;
-  font-size: 14px;
+
+/* — Mobile Sidenav (#slide-out): active & hover — */
+ul#slide-out li:not(.logo) a:hover,
+ul#slide-out li.active a {
+  background-color: #fafafa;
+}
+ul#slide-out li.active a i,
+ul#slide-out li.active a span,
+ul#slide-out li:not(.logo) a:hover i,
+ul#slide-out li:not(.logo) a:hover span {
+  color: var(--primary-color) !important;
 }
 
 /* --- Brand Logo --- */
@@ -416,7 +433,7 @@ img.responsive-img {
     padding-left: 0px;
     padding-top: 64px;
   }
-  ul.side-nav a {
+  .sidenav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
@@ -426,8 +443,8 @@ img.responsive-img {
     height: 64px;
     position: absolute;
   }
-  nav a.button-collapse,
-  nav a.button-collapse i {
+  nav a.sidenav-trigger,
+  nav a.sidenav-trigger i {
     color: #009688;
     height: 56px;
     line-height: 56px;
@@ -515,5 +532,151 @@ img.responsive-img {
   }
   #intro.section {
     background-position-x: 30%;
+  }
+}
+
+/* -------------------------------------------------------------------
+   Custom overrides
+------------------------------------------------------------------- */
+
+/* 1) Left-align the intro copy on all viewports */
+#intro .white-text {
+  text-align: left !important;
+}
+
+/* 2) Color sidebar icons on all viewports */
+.sidenav.sidenav-fixed li:not(.logo) a i.material-icons {
+  color: var(--primary-color);
+  transition: color 0.2s ease;
+}
+.sidenav.sidenav-fixed li.active a i,
+.sidenav.sidenav-fixed li a:hover i {
+  color: var(--highlight-cyan);
+}
+
+/* 3) Prevent intro text from hiding under the fixed mobile nav */
+@media (max-width: 992px) {
+  /* Push the intro container down 64px (nav height) */
+  #intro.section .container {
+    position: relative !important;
+    top: 64px !important;
+  }
+  /* Remove the negative margin that was pulling it back up */
+  section#intro {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   1) Flex‐align & color ALL sidenav icons (desktop & mobile)
+────────────────────────────────────────────────────────────────────────── */
+.sidenav li:not(.logo) a {
+  display: flex !important;
+  align-items: center !important;
+  padding-left: 16px !important;
+}
+
+
+.sidenav li:not(.logo) a i.material-icons {
+  color: var(--primary-color) !important;
+  font-size: 24px !important;
+  margin-right: 2px !important;
+  transition: color 0.2s ease !important;
+  transform: translateY(-4px);  /* ← nudges the icon down 2px */
+}
+
+
+.sidenav li:not(.logo) a:hover i,
+.sidenav li.active a i {
+  color: var(--highlight-cyan) !important;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   2) Pin the mobile slide‐out BELOW your fixed 64px header
+────────────────────────────────────────────────────────────────────────── */
+@media (max-width: 992px) {
+  #slide-out.sidenav {
+    position: fixed !important;
+    top: 64px        !important;
+    height: calc(100% - 64px) !important;
+    z-index: 1000    !important;
+  }
+
+  /* shrink & center the logo row so “About” doesn’t sit on top */
+  #slide-out li.logo {
+    padding: 10px 0 !important;
+    min-height: 0    !important;
+    text-align: center !important;
+  }
+  #slide-out li.logo .profile-pic {
+    margin: 0 auto     !important;
+    margin-left: 16px !important;
+    width: 80px        !important;
+    height: 80px       !important;
+    border-width: 4px  !important;
+  }
+}
+
+@media (min-width: 993px) {
+  main {
+    margin-left: 190px !important;
+    padding-left: 0 !important;
+  }
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   2) Make the mobile slide-out the same width as your sidebar
+────────────────────────────────────────────────────────────────────────── */
+#slide-out.sidenav {
+  width: 190px !important;
+}
+
+@media (max-width: 992px) {
+  
+  /* Option B: add space just below the logo item */
+  #slide-out.sidenav li.logo {
+    margin-bottom: 80px !important; /* or whatever spacing you prefer */
+  }
+}
+
+@media (max-width: 992px) {
+  /* 1) Give the logo link the same left‐padding as your other links */
+  #slide-out.sidenav li.logo a,
+  #slide-out.sidenav li:not(.logo) a {
+    padding-left: 8px !important;   /* match your desktop indent */
+    padding-right: 8px !important;  /* match your desktop indent */
+  }
+
+  /* 2) Remove the old negative margins so the avatar actually moves */
+  #slide-out.sidenav li.logo .profile-pic {
+    margin-left: 0   !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #slide-out.sidenav li.logo .profile-pic {
+    margin-left: 16px !important;
+  }
+}
+@media (max-width: 992px) {
+  /* Increase gap between icon and text */
+  #slide-out.sidenav li:not(.logo) a i.material-icons {
+    margin-right: 18px !important;  /* tweak this value as needed */
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .row .col.m9 {
+    /* originally “margin-left: auto;” in materialize.min.css */
+    margin-left: 40px !important;
+    right:       auto    !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .row .col.m9 {
+    /* originally “margin-left: 0” or auto in mobile defaults */
+    margin-left: 10px !important;
+    right:       auto    !important;
   }
 }
