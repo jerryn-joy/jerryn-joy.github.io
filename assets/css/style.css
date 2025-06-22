@@ -305,12 +305,14 @@ h3 {
 }
 
 #experience .card-content ul {
-  list-style: disc inside;
-  margin-left: 1.5rem;
-  padding-left: 0;
+  list-style-type: disc !important;
+  list-style-position: inside !important;
+  margin-left: 1.5rem !important;
+  padding-left: 0 !important;
 }
 
 #experience .card-content ul li {
+  display: list-item !important;
   margin-bottom: 0.5rem;
 }
 
