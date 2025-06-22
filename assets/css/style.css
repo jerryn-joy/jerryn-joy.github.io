@@ -304,6 +304,16 @@ h3 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+#experience .card-content ul {
+  list-style: disc inside;
+  margin-left: 1.5rem;
+  padding-left: 0;
+}
+
+#experience .card-content ul li {
+  margin-bottom: 0.5rem;
+}
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
