@@ -1,93 +1,53 @@
 :root {
-  --primary: #008073;
-  --accent: #e0f2f1;
-  --text-dark: #222;
+  --primary: #004d40;
+  --accent: #00796b;
+  --bg: #f5f5f5;
+  --text-dark: #333;
   --text-light: #666;
-  --bg: #f9f9f9;
-  --radius: 12px;
-  --shadow: 0 4px 12px rgba(0,0,0,0.06);
-  --transition: all 0.3s ease-in-out;
+  --radius: 10px;
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  --transition: all 0.3s ease;
 }
 
+/* Body */
 body {
-  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   color: var(--text-dark);
-  background-color: var(--bg);
+  background: #fff;
   line-height: 1.6;
 }
 
-a {
-  color: var(--primary);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-h2, h3, h4 {
-  font-weight: 600;
-}
-
-h3 {
-  margin-bottom: 40px;
-  padding: 30px 40px;
-  text-transform: uppercase;
-  font-size: 1.8rem;
-}
-
-.container {
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.section {
-  padding: 60px 0;
-}
-
-.full-height {
-  height: 100vh;
-}
-
-/* --- Navigation --- */
+/* Navigation */
 nav {
   background: white;
-  box-shadow: var(--shadow);
+  box-shadow: none;
   height: auto;
-  padding: 10px 20px;
-  border-radius: 0 0 var(--radius) var(--radius);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
-.side-nav.fixed {
-  background-color: white;
-  border-radius: var(--radius);
+/* Sidebar */
+ul.side-nav.fixed {
+  background: white;
+  padding-top: 20px;
+  border-right: 1px solid #eee;
   box-shadow: var(--shadow);
-  padding: 20px 10px;
-  margin: 20px 0 0 10px;
-  width: 180px;
+  border-radius: 0 var(--radius) var(--radius) 0;
 }
 
-.side-nav.fixed li a {
-  padding: 10px 12px;
-  display: flex;
-  align-items: center;
+ul.side-nav.fixed li a {
+  padding: 10px 15px;
+  margin: 4px 8px;
+  display: block;
   border-radius: var(--radius);
-  margin-bottom: 6px;
+  color: var(--accent);
   transition: var(--transition);
 }
 
-.side-nav.fixed li a:hover {
-  background-color: var(--accent);
-  color: var(--primary);
+ul.side-nav.fixed li a:hover {
+  background: #e0f2f1;
 }
 
-/* --- Profile Picture --- */
+/* Profile Image */
 .profile-pic {
   max-width: 130px;
   border: 6px solid rgba(0, 77, 64, 0.4);
@@ -96,213 +56,159 @@ nav {
   margin: 0 auto;
 }
 
-.profile-pic img {
-  width: 100%;
-  display: block;
-}
-
-/* --- Buttons --- */
-.icon-btn, .btn-floating {
-  width: 50px;
-  height: 50px;
-  font-size: 24px;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  transition: var(--transition);
-  background-color: var(--accent);
-  color: var(--text-dark);
-}
-
-.icon-btn:hover, .btn-floating:hover {
-  background-color: var(--primary);
-  color: white;
-  transform: scale(1.1);
-}
-
+/* Buttons */
 .readme, .contactme {
-  padding: 12px 28px;
-  font-weight: 600;
-  font-size: 16px;
+  padding: 12px 30px;
   border-radius: var(--radius);
-  margin: 10px 10px 0 0;
-  display: inline-block;
-  transition: var(--transition);
+  font-weight: bold;
+  font-size: 15px;
   text-transform: uppercase;
+  border: 2px solid white;
+  margin-right: 10px;
+  transition: var(--transition);
 }
 
 .readme {
-  background-color: white;
-  color: var(--primary);
-  border: 2px solid var(--primary);
-}
-
-.contactme {
-  background-color: var(--primary);
-  color: white;
-  border: 2px solid var(--primary);
+  background: white;
+  color: var(--accent);
 }
 
 .readme:hover {
-  background-color: var(--primary);
+  background: var(--accent);
+  color: white;
+}
+
+.contactme {
+  background: transparent;
   color: white;
 }
 
 .contactme:hover {
-  background-color: white;
-  color: var(--primary);
+  background: white;
+  color: var(--accent);
 }
 
-/* --- Cards --- */
+/* Social Buttons */
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 50px;
+  text-align: center;
+  transition: var(--transition);
+  background: white;
+  border: 2px solid var(--primary);
+}
+
+.icon-btn:hover {
+  background-color: var(--accent);
+  color: white;
+  transform: scale(1.1);
+}
+
+.linkedin {
+  color: #0077b5;
+}
+.github {
+  color: #000;
+}
+
+/* Cards */
 .card {
-  background-color: white;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 20px;
-  margin-bottom: 40px;
-  transition: var(--transition);
-  border: 1px solid #e0e0e0;
+  border: 1px solid #ddd;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
 }
 
 .card .role {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: var(--primary);
   font-weight: 500;
-  margin-top: 12px;
 }
 
 .card-action {
-  padding-top: 10px;
+  background: transparent;
   font-size: 0.9rem;
   color: var(--text-light);
 }
 
-.card-title {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-/* --- Intro Section --- */
-#intro.section {
+/* Section Title */
+h3.page-title {
+  color: white;
   background: var(--accent);
+  padding: 30px 40px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
   border-radius: var(--radius);
-  padding-top: 80px;
-  position: relative;
 }
 
-.overlay {
-  background-color: rgba(0, 0, 0, 0.4);
-  height: 100%;
-  width: 100%;
+/* Intro Section */
+#intro.section {
+  background: url(../../assets/img/bg.png) repeat;
+  position: relative;
+  color: white;
+}
+
+#intro.section .container {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--radius);
+  margin-left: 10%;
+  margin-top: 50px;
+  max-width: 800px;
+}
+
+#intro.section .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 0;
+  top: 0;
+  left: 0;
 }
 
 .caption h2 {
-  font-size: 2.5rem;
-  color: white;
+  font-size: 2.8rem;
   font-weight: 600;
+  color: white;
 }
 
 .caption h5 {
   color: white;
-  font-weight: 400;
-  margin: 10px 0;
+  font-weight: 300;
 }
 
-.typing {
-  font-weight: 600;
-}
-
-/* --- Skills Section --- */
-#skills .card img {
-  max-height: 80px;
-  margin: 10px auto;
-  display: block;
-}
-
-#skills h4 {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
-/* --- Lists & Typography --- */
-ul {
-  padding-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-li {
-  line-height: 1.8;
-}
-
-blockquote {
-  border-left: 5px solid var(--primary);
-  padding-left: 1rem;
-  color: var(--primary);
-  font-style: italic;
-}
-
-/* --- Hover Links --- */
+/* Hover Line */
 a.hoverline {
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   padding-bottom: 2px;
   transition: var(--transition);
 }
 
 a.hoverline:hover {
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 3px solid var(--accent);
 }
 
-/* --- Responsive Tweaks --- */
+/* Responsive Fixes */
 @media (max-width: 992px) {
   main {
     padding-left: 0;
   }
-
   nav {
-    height: auto;
     position: fixed;
-    top: 0;
     width: 100%;
+    z-index: 10;
   }
-
   .side-nav.fixed {
     display: none;
-  }
-
-  .name-title {
-    padding-top: 10px;
-    text-align: center;
-  }
-
-  .container {
-    width: 95%;
-    margin-top: 80px;
-  }
-}
-
-@media (max-width: 600px) {
-  h2 {
-    font-size: 1.8rem;
-  }
-
-  .readme, .contactme {
-    width: 100%;
-    text-align: center;
-  }
-
-  .card {
-    padding: 15px;
   }
 }
