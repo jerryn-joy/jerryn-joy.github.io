@@ -1,3 +1,18 @@
+/* --- Import & Variables --- */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+:root {
+  --primary-color: #0e5149;
+  --primary-tint1: #276a62;
+  --secondary-color: #f7f7f7;
+  --tertiary-color: #808080;
+  --accent-orange: #ffab40;
+  --highlight-cyan: #5adbb5;
+  --bg-mint: #e6fff9;
+  --success-green: #4caf50;
+  --error-red: #d64a3b;
+}
+
 /* --- Profile Picture --- */
 .profile-pic {
   position: relative;
@@ -11,7 +26,6 @@
   border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50% !important;
 }
-
 .profile-pic img {
   width: 100%;
   height: auto;
@@ -25,14 +39,11 @@
 }
 
 /* --- Social Media Icons --- */
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
-
 .social {
   margin: 0 auto;
   width: auto;
   text-align: inherit;
 }
-
 .icon-btn {
   margin-left: auto;
   width: 50px;
@@ -46,16 +57,13 @@
   display: inline-block;
   margin: 4px;
 }
-
 .github { color: black; }
 .linkedin { color: #0077b5; }
 .angellist { color: grey; }
-
 .icon-btn:hover {
   transform: scale(1.10);
   color: #FFFFFF;
 }
-
 .linkedin:hover { background-color: #0077b5; }
 .angellist:hover { background-color: grey; }
 .github:hover { background-color: black; }
@@ -73,7 +81,6 @@
   display: inline-block;
   border-radius: 5px;
 }
-
 .contactme {
   position: relative;
   padding: 11px 35px;
@@ -87,7 +94,6 @@
   margin-top: 1.5em;
   border-radius: 5px;
 }
-
 .contactme:hover {
   color: #00796b;
   background-color: white;
@@ -98,19 +104,16 @@ body {
   color: #333;
   font-size: 18px;
 }
-
 a {
   color: var(--primary-color, #004d40);
   text-decoration: none;
   border-bottom: 2px solid transparent;
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
-
 a:hover {
   color: var(--highlight-cyan);
   border-bottom: 2px solid var(--highlight-cyan);
 }
-
 blockquote {
   border-left: 5px solid #795548;
   color: #795548;
@@ -119,12 +122,10 @@ blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
 }
-
 blockquote * {
   font-size: inherit;
   line-height: inherit;
 }
-
 .text-center {
   text-align: center;
 }
@@ -136,6 +137,7 @@ nav {
   height: 0;
 }
 
+/* icon inside nav */
 nav i {
   padding: 0 15px;
   position: relative;
@@ -148,8 +150,10 @@ main {
   padding-left: 190px;
 }
 
-/* definition lists */
-dl { margin-top: 0.5rem; }
+/* DL styling */
+dl {
+  margin-top: 0.5rem;
+}
 dd {
   display: inline-block;
   font-weight: 500;
@@ -161,9 +165,12 @@ dt {
 }
 
 /* --- Side Navigation --- */
-ul.side-nav { width: 190px; }
-ul.side-nav li { padding: 0; }
-
+ul.side-nav {
+  width: 190px;
+}
+ul.side-nav li {
+  padding: 0;
+}
 ul.side-nav.fixed a {
   box-sizing: content-box;
   color: rgb(16, 202, 56);
@@ -171,13 +178,11 @@ ul.side-nav.fixed a {
   line-height: 100%;
   padding: 10px 0 12px;
 }
-
 ul.table-of-contents li.logo a.active,
 ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
-
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
   border-bottom: 1px solid #ddd;
@@ -185,23 +190,19 @@ ul.side-nav.fixed li.logo {
   min-height: 90px;
   padding: 30px 30px 40px;
 }
-
 ul.side-nav.fixed li.logo a {
   font-weight: 200;
   line-height: 100%;
 }
-
 ul.table-of-contents li:not(.logo) a.active,
 ul.table-of-contents li:not(.logo) a:hover {
   background-color: #fafafa;
   border-left: 3px solid;
 }
-
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span,
 ul#slide-out li:not(.logo) a span {
   color: #333 !important;
 }
-
 li.logo span {
   display: block;
   font-size: 14px;
@@ -220,7 +221,7 @@ li.logo span {
   width: 95%;
 }
 
-/* --- Headings and Sections --- */
+/* --- Headings & Sections --- */
 h3 {
   font-weight: 200;
   margin-bottom: 60px;
@@ -228,13 +229,11 @@ h3 {
   padding: 30px 40px;
   text-transform: uppercase;
 }
-
 .section {
   padding-bottom: 30px;
   padding-top: 0;
   position: relative;
 }
-
 .full-height {
   height: 100vh;
 }
@@ -244,7 +243,6 @@ h3 {
   background: #a7ffeb repeat;
   position: relative;
 }
-
 #intro.section .container {
   color: white;
   font-weight: 200;
@@ -252,21 +250,17 @@ h3 {
   position: absolute;
   top: 0;
 }
-
 #intro.section .container *:not(span) {
   font-weight: 300;
   line-height: 150%;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
-
 #intro.section .underline {
   border-bottom: 5px solid #24305e;
 }
-
 #intro.section .teal {
   padding: 0 10px;
 }
-
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
@@ -287,49 +281,40 @@ h3 {
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .card ul li {
   list-style-type: disc;
   margin-left: 24px;
 }
-
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
-
 .card .role {
   font-size: 1.25rem;
   position: absolute;
   right: 38px;
   top: 35px;
 }
-
 .card li a {
   margin-right: 0;
   color: #333;
   border-bottom: 2px solid #ffab40;
 }
-
 .card li a:hover {
   color: #333;
   font-weight: 500;
 }
-
 .card .card-content {
   padding-bottom: 30px;
 }
-
 .card .card-content p {
   padding: 5px 0 0;
 }
-
 .card h5 {
   font-size: 1.5rem;
   margin-bottom: -0.5rem;
   margin-top: 2rem;
 }
-
 .card h6 {
   font-weight: 300;
   letter-spacing: 1px;
@@ -337,20 +322,7 @@ h3 {
   text-transform: uppercase;
 }
 
-/* --- Accent Color System --- */
-:root {
-  --primary-color: #0e5149;
-  --primary-tint1: #276a62;
-  --secondary-color: #f7f7f7;
-  --tertiary-color: #808080;
-  --accent-orange: #ffab40;
-  --highlight-cyan: #5adbb5;
-  --bg-mint: #e6fff9;
-  --success-green: #4caf50;
-  --error-red: #d64a3b;
-}
-
-/* Accent CTA Button */
+/* --- Accent CTA Buttons & Alerts --- */
 .btn-accent {
   padding: 11px 35px;
   background-color: var(--accent-orange);
@@ -362,14 +334,11 @@ h3 {
   letter-spacing: 1px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 .btn-accent:hover {
   background-color: var(--primary-tint1);
   color: var(--secondary-color);
   transform: scale(1.05);
 }
-
-/* Success and Error Buttons */
 .btn-success {
   background-color: var(--success-green);
   color: var(--secondary-color);
@@ -377,7 +346,6 @@ h3 {
 .btn-success:hover {
   background-color: #3d8b40;
 }
-
 .btn-danger {
   background-color: var(--error-red);
   color: var(--secondary-color);
@@ -386,15 +354,13 @@ h3 {
   background-color: #c0392b;
 }
 
-/* Section Styling */
+/* --- Section Alt & Header Highlight --- */
 .section-alt {
   background-color: var(--bg-mint);
   padding: 40px;
   border-radius: 8px;
   color: var(--primary-color);
 }
-
-/* Highlighted Header */
 .card-header-highlight {
   background-color: var(--accent-orange);
   padding: 10px 20px;
@@ -403,7 +369,7 @@ h3 {
   border-radius: 8px 8px 0 0;
 }
 
-/* Unified Logo Styling */
+/* --- Unified Logo Styling --- */
 .logo img,
 .card img,
 img.responsive-img {
@@ -446,26 +412,19 @@ img.responsive-img {
 
 /* Tablets / small desktops */
 @media (max-width: 992px) {
-  /* existing beta */
   main {
-    padding-left: 0 !important;
+    padding-left: 0px;
     padding-top: 64px;
   }
-  nav {
-    height: 64px;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-  }
-  .container {
-    padding: 0 10px;
-  }
-
-  /* from alpha */
   ul.side-nav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
+  }
+  nav {
+    background: #fff;
+    height: 64px;
+    position: absolute;
   }
   nav a.button-collapse,
   nav a.button-collapse i {
@@ -524,22 +483,6 @@ img.responsive-img {
 
 /* Mobile phones */
 @media (max-width: 600px) {
-  /* existing beta */
-  h2 {
-    font-size: 22px;
-    line-height: 140%;
-  }
-  .card .card-content .card-title {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .icon-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 24px;
-  }
-
-  /* from alpha */
   h2 {
     font-size: 22px;
     line-height: 200%;
