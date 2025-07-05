@@ -1,79 +1,73 @@
-/* --- Import & Variables --- */
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/* ==========================================================================
+   IMPORTS & VARIABLES
+========================================================================== */
 
-html {
-  /* equals the height of your fixed nav+header */
-  scroll-padding-top: 64px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 :root {
-  --primary-color: #0e5149;
-  --primary-tint1: #276a62;
-  --secondary-color: #f7f7f7;
-  --tertiary-color: #808080;
-  --accent-orange: #ffab40;
-  --highlight-cyan: #5adbb5;
-  --bg-mint: #e6fff9;
-  --success-green: #4caf50;
-  --error-red: #d64a3b;
+  --primary-color: #2b2d42;
+  --highlight-cyan: #8d99ae;
+  --accent-orange: #ef233c;
+  --bg-mint: #f7f7f7;
+  --active-green: #00796b
 }
 
-/* --- Profile Picture --- */
+html {
+  scroll-padding-top: 64px; /* account for fixed nav */
+}
+
+/* ==========================================================================
+   PROFILE IMAGE STYLING
+========================================================================== */
+
 .profile-pic {
   position: relative;
   max-width: 130px;
   max-height: 130px;
-  width: auto;
-  height: auto;
-  overflow: hidden;
-  margin: -31px;
-  margin-left: -7px;
+  margin: -31px -7px 0 0;
   border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50% !important;
+  overflow: hidden;
 }
 .profile-pic img {
   width: 100%;
   height: auto;
 }
 
-/* --- Tracker --- */
-.tracker {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
+/* ==========================================================================
+   SOCIAL ICON BUTTONS
+========================================================================== */
 
-/* --- Social Media Icons --- */
 .social {
   margin: 0 auto;
-  width: auto;
   text-align: inherit;
 }
+
 .icon-btn {
-  margin-left: auto;
-  width: 50px;
-  height: 50px;
-  border: 0;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 30px;
-  line-height: 70px;
-  border-radius: 45px;
-  display: inline-block;
-  margin: 4px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.icon-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  color: white;
+}
+
+/* Platform-specific hover colors */
 .github { color: black; }
 .linkedin { color: #0077b5; }
 .angellist { color: grey; }
-.icon-btn:hover {
-  transform: scale(1.10);
-  color: #FFFFFF;
-}
+
 .linkedin:hover { background-color: #0077b5; }
 .angellist:hover { background-color: grey; }
 .github:hover { background-color: black; }
 
-/* --- Buttons --- */
+/* ==========================================================================
+   BUTTONS
+========================================================================== */
+
 .readme {
   position: relative;
   padding: 11px 35px;
@@ -86,6 +80,7 @@ html {
   display: inline-block;
   border-radius: 5px;
 }
+
 .contactme {
   position: relative;
   padding: 11px 35px;
@@ -99,15 +94,20 @@ html {
   margin-top: 1.5em;
   border-radius: 5px;
 }
+
 .contactme:hover {
   color: #00796b;
   background-color: white;
 }
 
-/* --- General Body Styling --- */
+/* ==========================================================================
+   BASE TYPOGRAPHY & ELEMENT STYLES
+========================================================================== */
+
 body {
-  color: #333;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
+  color: #333;
 }
 a {
   color: var(--primary-color);
@@ -124,18 +124,17 @@ blockquote {
   color: #795548;
   font-size: 125%;
   font-weight: 400;
-  margin: 20px 0;
   padding-left: 1.5rem;
-}
-blockquote * {
-  font-size: inherit;
-  line-height: inherit;
+  margin: 20px 0;
 }
 .text-center {
   text-align: center;
 }
 
-/* --- Navigation --- */
+/* ==========================================================================
+   NAVIGATION STYLES
+========================================================================== */
+
 nav {
   background: white;
   box-shadow: none;
@@ -143,30 +142,37 @@ nav {
 }
 nav i {
   padding: 0 15px;
-  position: relative;
   top: 5px;
+  position: relative;
 }
 
-/* --- Main --- */
+
+/* ==========================================================================
+   MAIN BACKGROUND
+========================================================================== */
+
 main {
   background: url(../../assets/img/bg.png) repeat;
 }
 
-/* DL styling */
-dl {
-  margin-top: 0.5rem;
-}
-dd {
+/* ==========================================================================
+   DEFINITION LIST
+========================================================================== */
+
+dl { margin-top: 0.5rem; }
+dd, dt {
   display: inline-block;
-  font-weight: 500;
   margin-left: 0;
 }
 dt {
-  display: inline-block;
   margin-left: 0.5rem;
+  font-weight: 500;
 }
 
-/* --- Side Navigation --- */
+/* ==========================================================================
+   SIDENAV (Desktop & Mobile)
+========================================================================== */
+
 .sidenav {
   width: 190px;
 }
@@ -182,7 +188,7 @@ dt {
   padding: 10px 0 12px;
 }
 
-/* — Logo styling (unchanged) — */
+/* --- Logo Styling (unchanged) --- */
 ul.table-of-contents li.logo a,
 ul.table-of-contents li.logo a:hover {
   border: none;
@@ -200,7 +206,7 @@ ul.table-of-contents li.logo a:hover {
   line-height: 100%;
 }
 
-/* — Desktop TOC: active & hover for non-logo items — */
+/* --- Desktop TOC: Active & Hover (non-logo items) --- */
 ul.table-of-contents li:not(.logo) a:hover,
 ul.table-of-contents li.active a {
   background-color: #fafafa;
@@ -213,7 +219,7 @@ ul.table-of-contents li:not(.logo) a:hover span {
   color: var(--primary-color) !important;
 }
 
-/* — Mobile Sidenav (#slide-out): active & hover — */
+/* --- Mobile Sidenav (#slide-out): Active & Hover --- */
 ul#slide-out li:not(.logo) a:hover,
 ul#slide-out li.active a {
   background-color: #fafafa;
@@ -225,7 +231,10 @@ ul#slide-out li:not(.logo) a:hover span {
   color: var(--primary-color) !important;
 }
 
-/* --- Brand Logo --- */
+/* ==========================================================================
+   LOGO & BRAND
+========================================================================== */
+
 .brand-logo h1 {
   font-size: inherit;
   line-height: inherit;
@@ -233,31 +242,41 @@ ul#slide-out li:not(.logo) a:hover span {
   font-weight: inherit;
 }
 
-/* --- Container --- */
+/* ==========================================================================
+   LAYOUT & HEADINGS
+========================================================================== */
+
 .container {
   width: 95%;
 }
 
 /* --- Headings & Sections --- */
 h3 {
-  font-weight: 200;
+  font-weight: 600;
   margin-bottom: 60px;
   margin-top: 0;
   padding: 30px 40px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .section {
-  padding-bottom: 30px;
-  padding-top: 0;
-  position: relative;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease-out;
+}
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 .full-height {
   height: 100vh;
 }
 
-/* --- Intro Section --- */
+/* ==========================================================================
+   INTRO SECTION
+========================================================================== */
+
 #intro.section {
-  background: #a7ffeb repeat;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
   position: relative;
 }
 #intro.section .container {
@@ -286,6 +305,10 @@ h3 {
   top: 0;
   width: 100%;
 }
+
+/* ==========================================================================
+   CARD COMPONENTS
+========================================================================== */
 
 /* --- Waves Effect --- */
 .waves-effect.waves-blue .waves-ripple {
@@ -339,39 +362,10 @@ h3 {
   text-transform: uppercase;
 }
 
-/* --- Accent CTA Buttons & Alerts --- */
-.btn-accent {
-  padding: 11px 35px;
-  background-color: var(--accent-orange);
-  color: var(--primary-color);
-  font-weight: 600;
-  font-size: 15px;
-  border: none;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-.btn-accent:hover {
-  background-color: var(--primary-tint1);
-  color: var(--secondary-color);
-  transform: scale(1.05);
-}
-.btn-success {
-  background-color: var(--success-green);
-  color: var(--secondary-color);
-}
-.btn-success:hover {
-  background-color: #3d8b40;
-}
-.btn-danger {
-  background-color: var(--error-red);
-  color: var(--secondary-color);
-}
-.btn-danger:hover {
-  background-color: #c0392b;
-}
+/* ==========================================================================
+   SECTION ALTERNATES
+========================================================================== */
 
-/* --- Section Alt & Header Highlight --- */
 .section-alt {
   background-color: var(--bg-mint);
   padding: 40px;
@@ -386,7 +380,10 @@ h3 {
   border-radius: 8px 8px 0 0;
 }
 
-/* --- Unified Logo Styling --- */
+/* ==========================================================================
+   IMAGE STYLES (logos/icons)
+========================================================================== */
+
 .logo img,
 .card img,
 img.responsive-img {
@@ -402,9 +399,11 @@ img.responsive-img {
   box-shadow: none !important;
 }
 
-/* --- Responsive tweaks from alpha --- */
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+========================================================================== */
 
-/* Large desktops */
+/* Desktops */
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
@@ -427,41 +426,55 @@ img.responsive-img {
   }
 }
 
-/* Tablets / small desktops */
+/* Tablets and below */
 @media (max-width: 992px) {
+  /* --- Main layout tweaks for mobile --- */
   main {
     padding-left: 0px;
     padding-top: 64px;
   }
+
   .sidenav a {
     line-height: 100%;
     padding: 0;
     width: 100%;
   }
+
   nav {
     background: #fff;
     height: 64px;
     position: absolute;
   }
+
   nav a.sidenav-trigger,
   nav a.sidenav-trigger i {
     color: #009688;
     height: 56px;
     line-height: 56px;
   }
-  h3 {
-    padding: 20px 30px;
-    margin-bottom: 40px;
-  }
-  .container {
-    margin: 0 auto;
-  }
+
   nav.hide-on-large.only.trigger {
     display: block;
     position: fixed;
     top: 0;
     z-index: 2;
   }
+
+  .container {
+    margin: 0 auto;
+  }
+
+  h3 {
+    padding: 20px 30px;
+    margin-bottom: 40px;
+  }
+
+  h3,
+  .container {
+    position: relative;
+    top: 64px;
+  }
+
   .name-title {
     display: block;
     height: 100%;
@@ -470,31 +483,69 @@ img.responsive-img {
     width: 100%;
     position: absolute;
   }
+
   .name-title > span,
   .name-title > a {
     position: relative;
     line-height: 20px;
   }
+
   .name-title a {
     font-size: 22px;
     display: block;
   }
+
   .name-title span {
     display: block;
     font-size: 14px;
   }
-  h3,
-  .container {
-    position: relative;
-    top: 64px;
+
+  #intro.section .container {
+    position: relative !important;
+    top: 64px !important;
   }
+
   section#intro {
-    margin-bottom: -64px;
+    margin-bottom: 0 !important;
   }
+
   .card .role {
     position: relative;
     right: initial;
     top: initial;
+  }
+
+  #slide-out.sidenav {
+    position: fixed !important;
+    top: 64px !important;
+    height: calc(100% - 64px) !important;
+    z-index: 1000 !important;
+    width: 190px !important;
+  }
+
+  #slide-out li.logo {
+    padding: 10px 0 !important;
+    min-height: 0 !important;
+    text-align: center !important;
+    margin-bottom: 80px !important;
+  }
+
+  #slide-out.sidenav li.logo a,
+  #slide-out.sidenav li:not(.logo) a {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  #slide-out.sidenav li.logo .profile-pic {
+    margin: 0 auto !important;
+    margin-left: 16px !important;
+    width: 80px !important;
+    height: 80px !important;
+    border-width: 4px !important;
+  }
+
+  #slide-out.sidenav li:not(.logo) a i.material-icons {
+    margin-right: 18px !important;
   }
 }
 
@@ -505,200 +556,142 @@ img.responsive-img {
     line-height: 200%;
     margin: 30px 0 0;
   }
+
   #intro.section .container *:not(span) {
     padding: 0;
   }
+
+  #intro.section .container {
+    top: 5px !important; /* Reduces empty space at the top */
+  }
+
   #experience span.card-title {
     text-align: center;
     display: block;
   }
+
   #experience span.card-title a {
     margin: 0;
   }
+
   i.mdi-navigation-close.right {
     position: relative;
     bottom: 15px;
   }
+
   #contact a:not(.btn-floating) {
     text-align: center;
     display: block;
     left: initial;
     bottom: initial;
   }
+
   #contact a.btn-floating.btn-large {
     display: block;
     text-align: center;
     margin: 0 auto;
   }
+
   #intro.section {
     background-position-x: 30%;
   }
+
+  .row .col.m9 {
+    margin-left: 10px !important;
+    right: auto !important;
+  }
+
+  .buttons a.readme,
+  .buttons a.contactme {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .social {
+    margin-top: -41px !important;
+    margin-bottom: 0em !important;
+  }
 }
 
-/* -------------------------------------------------------------------
-   Custom overrides
-------------------------------------------------------------------- */
+/* ==========================================================================
+   CUSTOM OVERRIDES & TWEAKS
+========================================================================== */
 
-/* 1) Left-align the intro copy on all viewports */
+/* Force left alignment of white intro text (used in #intro section) */
 #intro .white-text {
   text-align: left !important;
 }
 
-/* 2) Color sidebar icons on all viewports */
+/* Color adjustment for sidenav icons in fixed desktop nav */
 .sidenav.sidenav-fixed li:not(.logo) a i.material-icons {
   color: var(--primary-color);
   transition: color 0.2s ease;
 }
+
+/* Highlight sidenav icon on hover or when active */
 .sidenav.sidenav-fixed li.active a i,
 .sidenav.sidenav-fixed li a:hover i {
   color: var(--highlight-cyan);
 }
 
-/* 3) Prevent intro text from hiding under the fixed mobile nav */
-@media (max-width: 992px) {
-  /* Push the intro container down 64px (nav height) */
-  #intro.section .container {
-    position: relative !important;
-    top: 64px !important;
-  }
-  /* Remove the negative margin that was pulling it back up */
-  section#intro {
-    margin-bottom: 0 !important;
-  }
-}
-
 /* ──────────────────────────────────────────────────────────────────────────
-   1) Flex‐align & color ALL sidenav icons (desktop & mobile)
+Flex-align & style all sidenav icons (desktop & mobile views)
 ────────────────────────────────────────────────────────────────────────── */
+
+/* Align nav links and icons horizontally */
 .sidenav li:not(.logo) a {
   display: flex !important;
   align-items: center !important;
   padding-left: 16px !important;
+  font-size: 16px;        /* Adjust size as needed */
+  font-weight: 600;
 }
 
-
+/* Style sidenav icons */
 .sidenav li:not(.logo) a i.material-icons {
   color: var(--primary-color) !important;
   font-size: 24px !important;
   margin-right: 2px !important;
   transition: color 0.2s ease !important;
-  transform: translateY(-4px);  /* ← nudges the icon down 2px */
+  transform: translateY(-4px); /* Slight vertical alignment adjustment */
 }
 
-
+/* Style for hovered or active sidenav items */
 .sidenav li:not(.logo) a:hover i,
-.sidenav li.active a i {
-  color: var(--highlight-cyan) !important;
+.sidenav li.active a {
+  border-left: 4px solid var(--active-green);
+  background: #f0f0f0;
+  font-weight: bold;
 }
+
 
 /* ──────────────────────────────────────────────────────────────────────────
-   2) Pin the mobile slide‐out BELOW your fixed 64px header
+Offset main content when desktop sidenav is visible
 ────────────────────────────────────────────────────────────────────────── */
-@media (max-width: 992px) {
-  #slide-out.sidenav {
-    position: fixed !important;
-    top: 64px        !important;
-    height: calc(100% - 64px) !important;
-    z-index: 1000    !important;
-  }
-
-  /* shrink & center the logo row so “About” doesn’t sit on top */
-  #slide-out li.logo {
-    padding: 10px 0 !important;
-    min-height: 0    !important;
-    text-align: center !important;
-  }
-  #slide-out li.logo .profile-pic {
-    margin: 0 auto     !important;
-    margin-left: 16px !important;
-    width: 80px        !important;
-    height: 80px       !important;
-    border-width: 4px  !important;
-  }
-}
-
 @media (min-width: 993px) {
   main {
-    margin-left: 190px !important;
+    margin-left: 190px !important; /* Equal to sidenav width */
     padding-left: 0 !important;
   }
 }
 
+
 /* ──────────────────────────────────────────────────────────────────────────
-   2) Make the mobile slide-out the same width as your sidebar
+Ensure mobile sidenav matches desktop sidebar width
 ────────────────────────────────────────────────────────────────────────── */
 #slide-out.sidenav {
-  width: 190px !important;
+  width: 190px !important; /* Matches .sidenav.sidenav-fixed */
 }
 
-@media (max-width: 992px) {
-  
-  /* Option B: add space just below the logo item */
-  #slide-out.sidenav li.logo {
-    margin-bottom: 80px !important; /* or whatever spacing you prefer */
-  }
-}
 
-@media (max-width: 992px) {
-  /* 1) Give the logo link the same left‐padding as your other links */
-  #slide-out.sidenav li.logo a,
-  #slide-out.sidenav li:not(.logo) a {
-    padding-left: 8px !important;   /* match your desktop indent */
-    padding-right: 8px !important;  /* match your desktop indent */
-  }
-
-  /* 2) Remove the old negative margins so the avatar actually moves */
-  #slide-out.sidenav li.logo .profile-pic {
-    margin-left: 0   !important;
-  }
-}
-
-@media (max-width: 992px) {
-  #slide-out.sidenav li.logo .profile-pic {
-    margin-left: 16px !important;
-  }
-}
-@media (max-width: 992px) {
-  /* Increase gap between icon and text */
-  #slide-out.sidenav li:not(.logo) a i.material-icons {
-    margin-right: 18px !important;  /* tweak this value as needed */
-  }
-}
-
+/* ──────────────────────────────────────────────────────────────────────────
+Position content block properly at mid-size breakpoints
+────────────────────────────────────────────────────────────────────────── */
 @media only screen and (min-width: 601px) {
   .row .col.m9 {
-    /* originally “margin-left: auto;” in materialize.min.css */
-    margin-left: 80px !important;
-    right:       auto    !important;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .row .col.m9 {
-    /* originally “margin-left: 0” or auto in mobile defaults */
-    margin-left: 10px !important;
-    right:       auto    !important;
-  }
-}
-
-
-@media only screen and (max-width: 600px) {
-  /* bump .readme & .contactme up by +5px on every side */
-  .buttons a.readme,
-  .buttons a.contactme {
-    /* original was 11px top/bottom, 35px left/right;
-       now we do calc(original + 5px) */
-    padding-left:5px !important;
-    padding-right:5px !important;
-    padding-top:5px !important;
-    padding-bottom:5px !important;
-
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .social {
-    margin-top: -41px !important;
-    margin-bottom: 0em !important;
+    margin-left: 80px !important; /* Adjust left spacing for columns */
+    right: auto !important;       /* Reset any RTL or manual right offsets */
   }
 }
