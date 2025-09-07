@@ -1,0 +1,7 @@
+title: "Jerryn Joy"
+description: "AI Product Owner specializing in automation and scalable systems."
+url: "https://jerryn-joy.github.io"   # change if using a custom domain
+markdown: kramdown
+theme: null
+plugins: []
+permalink: /:title/
