@@ -5,16 +5,33 @@ description: "Selected AI, automation, and product projects."
 permalink: /projects/
 ---
 
-<section class="projects">
+<!-- Page-scoped tweak: keep 3-column grid on this page so a single card doesn't grow -->
+<style>
+  .projects.projects--lock .projects-grid {
+    grid-template-columns: repeat(3, minmax(350px, 1fr));
+  }
+  /* Preserve your existing mobile stack */
+  @media (max-width: 768px) {
+    .projects.projects--lock .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<section class="projects projects--lock">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">Featured Projects</h2>
+      <h2 class="section-title">AI-Driven Automation with No/Low-Code Solutions</h2>
+      <p class="contact-sub">
+        A selection of projects where I had the opportunity to explore, experiment with, and implement the latest technologies-demonstrating innovation, problem-solving, and practical application of modern tools.
+      </p>
     </div>
-
+    
     <div class="projects-grid">
+      <!-- KEEP: Zero-Cost AI Lead Qualification -->
       <div class="project-card">
         <div class="project-image">
-          <img src="/assets/images/Hyfindr__logo.webp" alt="E-Commerce Platform" style="width:100%;height:100%;object-fit:cover;">
+          <img src="/assets/images/ai_lead_qualification_banner.svg" alt="E-Commerce Platform" style="width:100%;height:100%;object-fit:cover;">
         </div>
         <div class="project-content">
           <h3 class="project-title">Zero-Cost AI Lead Qualification</h3>
@@ -32,48 +49,7 @@ permalink: /projects/
           </div>
         </div>
       </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/assets/images/Hyfindr__logo.webp" alt="Task Management App" style="width:100%;height:100%;object-fit:cover;">
-        </div>
-        <div class="project-content">
-          <h3 class="project-title">Customer Support Chatbot</h3>
-          <p class="project-description">AI-powered chatbot built with Voiceflow that automated 40% of customer responses and integrated Whisper for voice processing.</p>
-          <div class="project-tech">
-            <span class="tech-tag">Voiceflow</span>
-            <span class="tech-tag">OpenAI Whisper</span>
-            <span class="tech-tag">NLP</span>
-            <span class="tech-tag">Knowledge Base</span>
-          </div>
-          <div class="project-links">
-            <a href="/contact/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="/contact/" class="project-link"><i class="fab fa-github"></i> Code</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/assets/images/Hyfindr__logo.webp" alt="Weather Forecast App" style="width:100%;height:100%;object-fit:cover;">
-        </div>
-        <div class="project-content">
-          <h3 class="project-title">AI Product Search Tool</h3>
-          <p class="project-description">Python-based search tool using LangChain and RAG to extract structured data from technical datasheets via LLMs (Qwen, LLaMA).</p>
-          <div class="project-tech">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">LangChain</span>
-            <span class="tech-tag">RAG</span>
-            <span class="tech-tag">LLaMA</span>
-            <span class="tech-tag">Qwen</span>
-          </div>
-          <div class="project-links">
-            <a href="/contact/" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="/contact/" class="project-link"><i class="fab fa-github"></i> Code</a>
-          </div>
-        </div>
-      </div>
-
+      <!-- other project cards removed -->
     </div>
   </div>
 </section>

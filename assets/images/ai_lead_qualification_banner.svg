@@ -1,0 +1,118 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3730a3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#581c87;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:0.95" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative circuit pattern -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="1" fill="none">
+    <path d="M50,50 L150,50 L150,100 L250,100"/>
+    <path d="M300,80 L400,80 L400,130 L500,130"/>
+    <path d="M550,60 L650,60 L650,110 L750,110"/>
+    <circle cx="150" cy="50" r="3" fill="#ffffff"/>
+    <circle cx="250" cy="100" r="3" fill="#ffffff"/>
+    <circle cx="400" cy="80" r="3" fill="#ffffff"/>
+    <circle cx="500" cy="130" r="3" fill="#ffffff"/>
+    <circle cx="650" cy="60" r="3" fill="#ffffff"/>
+  </g>
+  
+  <!-- Main content card -->
+  <rect x="50" y="80" width="700" height="240" rx="15" fill="url(#cardGradient)" filter="url(#shadow)"/>
+  
+  <!-- AI Brain Icon -->
+  <g transform="translate(80,120)">
+    <circle cx="40" cy="40" r="35" fill="#3b82f6" opacity="0.2"/>
+    <path d="M15,25 Q15,15 25,15 L55,15 Q65,15 65,25 L65,55 Q65,65 55,65 L25,65 Q15,65 15,55 Z" 
+          fill="none" stroke="#3b82f6" stroke-width="2.5" opacity="0.8"/>
+    <!-- Neural network nodes -->
+    <circle cx="25" cy="30" r="2.5" fill="#3b82f6"/>
+    <circle cx="40" cy="25" r="2.5" fill="#3b82f6"/>
+    <circle cx="55" cy="30" r="2.5" fill="#3b82f6"/>
+    <circle cx="30" cy="45" r="2.5" fill="#3b82f6"/>
+    <circle cx="50" cy="45" r="2.5" fill="#3b82f6"/>
+    <!-- Connections -->
+    <line x1="25" y1="30" x2="40" y2="25" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+    <line x1="40" y1="25" x2="55" y2="30" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+    <line x1="25" y1="30" x2="30" y2="45" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+    <line x1="55" y1="30" x2="50" y2="45" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+    <line x1="40" y1="25" x2="30" y2="45" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+    <line x1="40" y1="25" x2="50" y2="45" stroke="#3b82f6" stroke-width="1" opacity="0.6"/>
+  </g>
+  
+  <!-- Funnel Icon -->
+  <g transform="translate(600,120)">
+    <path d="M20,20 L60,20 L50,40 L30,40 Z" fill="#10b981" opacity="0.8"/>
+    <path d="M30,40 L50,40 L45,55 L35,55 Z" fill="#10b981" opacity="0.9"/>
+    <path d="M35,55 L45,55 L42,65 L38,65 Z" fill="#10b981"/>
+    <!-- Dots representing leads -->
+    <circle cx="25" cy="15" r="1.5" fill="#ef4444"/>
+    <circle cx="35" cy="10" r="1.5" fill="#ef4444"/>
+    <circle cx="45" cy="15" r="1.5" fill="#ef4444"/>
+    <circle cx="55" cy="10" r="1.5" fill="#ef4444"/>
+    <!-- Qualified lead -->
+    <circle cx="40" cy="70" r="2" fill="#10b981" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="180" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="36" font-weight="bold">
+    Zero-Cost AI Lead Qualification
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="210" text-anchor="middle" fill="#4b5563" font-family="Arial, sans-serif" font-size="16" font-weight="400">
+    Intelligent lead scoring and qualification without the overhead
+  </text>
+  
+  <!-- Feature badges -->
+  <g transform="translate(200,240)">
+    <rect x="0" y="0" width="80" height="25" rx="12" fill="#3b82f6" opacity="0.1"/>
+    <text x="40" y="16" text-anchor="middle" fill="#3b82f6" font-family="Arial, sans-serif" font-size="11" font-weight="600">
+      AI POWERED
+    </text>
+  </g>
+  
+  <g transform="translate(300,240)">
+    <rect x="0" y="0" width="70" height="25" rx="12" fill="#10b981" opacity="0.1"/>
+    <text x="35" y="16" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="11" font-weight="600">
+      FREE TIER
+    </text>
+  </g>
+  
+  <g transform="translate(390,240)">
+    <rect x="0" y="0" width="90" height="25" rx="12" fill="#f59e0b" opacity="0.1"/>
+    <text x="45" y="16" text-anchor="middle" fill="#f59e0b" font-family="Arial, sans-serif" font-size="11" font-weight="600">
+      AUTOMATED
+    </text>
+  </g>
+  
+  <!-- Floating elements for visual interest -->
+  <circle cx="150" cy="350" r="3" fill="#3b82f6" opacity="0.3">
+    <animate attributeName="cy" values="350;340;350" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="350" r="2" fill="#10b981" opacity="0.4">
+    <animate attributeName="cy" values="350;345;350" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="320" r="2" fill="#f59e0b" opacity="0.3">
+    <animate attributeName="cy" values="320;315;320" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
