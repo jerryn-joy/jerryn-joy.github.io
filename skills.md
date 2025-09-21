@@ -203,7 +203,7 @@ permalink: /skills/
         </div>
 
         <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">English (fluent)</span><span class="skillsx-level">100%</span></div>
+          <div class="skillsx-row"><span class="skillsx-name">English (Fluent)</span><span class="skillsx-level">100%</span></div>
           <div class="skillsx-bar"><span class="skillsx-fill" data-width="100"></span></div>
         </div>
 
