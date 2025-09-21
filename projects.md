@@ -37,11 +37,11 @@ permalink: /projects/
           <h3 class="project-title">Zero-Cost AI Lead Qualification</h3>
           <p class="project-description">Fully automated, no-code AI-driven pipeline for qualifying B2B hydrogen industry leads using advanced machine learning models.</p>
           <div class="project-tech">
-            <span class="tech-tag">AI Classification</span>
+            <span class="tech-tag">Open-source LLM model</span>
             <span class="tech-tag">Make.com</span>
             <span class="tech-tag">HubSpot</span>
             <span class="tech-tag">Airtable</span>
-            <span class="tech-tag">MailerLite</span>
+            <span class="tech-tag">Voiceflow</span>
           </div>
           <div class="project-links">
             <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>

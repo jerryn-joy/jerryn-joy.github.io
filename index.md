@@ -19,28 +19,47 @@ permalink: /
 
       <!-- RIGHT: everything else -->
       <div class="hero-right">
-        <h1>
-          Hello, I am Jerryn Joy
-          <span class="wave" aria-hidden="true">👋</span>
-        </h1>
+        <!-- Static headline -->
+            <h1>
+              Hello, I am Jerryn Joy
+              <span class="wave" aria-hidden="true">👋</span>
+            </h1>
 
+
+        <!-- Static sub-headline -->
         <div class="subtitle">
-          <span class="ai-fixed">AI&nbsp;</span>
-          <span id="role-rotator" aria-live="polite"></span>
+          Business Automation Specialist | AI Product Owner | AI Project Manager
         </div>
 
-       <p class="description">
-        I specialize in designing and implementing scalable automation solutions through low/no-code platforms and AI integrations.
-       </p>
-       <p class="description">
-        I manage projects from conception to deployment, helping organizations to become more efficient, eliminate repetitive tasks, and enhance customer experiences.
-       </p>
+        <!-- Typewriter line -->
+        <div class="typing-line">
+          <span id="phrase-rotator" aria-live="polite"></span>
+        </div> 
+
+        <!-- New description
+          <p class="description">
+            Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python—reducing manual effort and increasing efficiency </p> 
+          <p class="description">
+            End-to-end delivery from design and prototyping to full-scale deployment.</p>
+          <p class="description">Build AI assistants, chatbots, and LLM-driven tools to improve customer experience and reduce operational overhead.</p>
+          <p class="description">Passionate about applying my skills in <strong>AI</strong> and <strong>automation</strong> to solve real-world business challenges.</p>
+          <p class="description">Save time and money with Faster, Smarter, Adaptive workflows.</p> -->
+
+        <!-- New description with bullet points -->
+        <div class="description-list">
+          <ul>
+            <li>Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python—reducing manual effort and increasing efficiency</li>
+            <li>End-to-end delivery from design and prototyping to full-scale deployment</li>
+            <li>Build AI assistants, chatbots, and LLM-driven tools to improve customer experience and reduce operational overhead</li>
+            <li>Passionate about applying my skills in <strong>AI</strong> and <strong>automation</strong> to solve real-world business challenges</li>
+            <li>Save time and money with Faster, Smarter, Adaptive workflows</li>
+          </ul>
+        </div>
 
         <div class="cta-buttons">
           <a href="/contact/" class="btn btn-primary">Get In Touch</a>
           <a href="#projects" class="btn btn-secondary">View My Projects</a>
         </div>
-
       </div>
     </div>
   </div>

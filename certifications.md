@@ -8,21 +8,25 @@ permalink: /certifications/
 <section id="certifications" class="certifications-section">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">Certifications & Awards</h2>
+      <h2 class="section-title">Certifications and Awards</h2>
     </div>
 
     <div class="certx-grid modern">
+
       <!-- Award -->
       <article class="certx-card">
         <header class="certx-header">
-          <div class="certx-icon is-award" aria-hidden="true">🏆</div>
+          <div class="certx-logo">
+            <img src="/assets/images/BadenCampus.webp" alt="BadenCampus logo">
+          </div>
           <div>
-            <div class="certx-title">Winner — Black Forest Hackathon</div>
+            <div class="certx-title">Winner - Black Forest Hackathon</div>
             <div class="certx-provider">BadenCampus • Partner: Liebherr</div>
           </div>
         </header>
         <div class="certx-body">
           Built an AI system to automatically validate supplier certificates and detect discrepancies, significantly reducing manual review time.
+          Tools used: Python, GPT-4, MegaParse and MySQL
         </div>
         <footer class="certx-footer">
           <div class="certx-date">11 May 2025</div>
@@ -32,44 +36,42 @@ permalink: /certifications/
         </footer>
       </article>
 
-      <!-- LangChain / DeepLearning.ai -->
+      <!-- LangChain / DeepLearning.AI -->
       <article class="certx-card">
         <header class="certx-header">
-          <!-- Swap to your real logo by uncommenting the <img> and removing the text fallback -->
-          <!-- <div class="certx-logo"><img src="/assets/logos/deeplearningai.svg" alt="DeepLearning.ai logo"></div> -->
-          <div class="certx-logo" title="DeepLearning.ai">DL.ai</div>
+          <div class="certx-logo">
+            <img src="/assets/images/DeeplearningAI.jpeg" alt="DeepLearning.AI logo">
+          </div>
           <div>
-            <div class="certx-title">LangChain: Retrieval Augmented Generation</div>
-            <div class="certx-provider">DeepLearning.ai</div>
+            <div class="certx-title">LangChain for LLM Application Development</div>
+            <div class="certx-provider">DeepLearning.AI</div>
           </div>
         </header>
         <div class="certx-body">
-          Built agentic RAG workflows with tools, memory, and multi-step chains to query private documents securely and reliably.
+          Mastered RAG implementation to build intelligent document query systems with persistent memory and multi-step reasoning capabilities to query private documents.
         </div>
         <footer class="certx-footer">
-          <div class="certx-date">11 May 2025</div>
-          <a class="certx-btn" href="/certs/langchain-rag" target="_blank" rel="noopener" aria-label="View certificate for LangChain RAG">
-            View certificate
-          </a>
+          <div class="certx-date">23 Jan 2024</div>
         </footer>
       </article>
 
       <!-- Microsoft Copilot Studio -->
       <article class="certx-card">
         <header class="certx-header">
-          <!-- <div class="certx-logo"><img src="/assets/logos/microsoft.svg" alt="Microsoft logo"></div> -->
-          <div class="certx-logo" title="Microsoft">MS</div>
+          <div class="certx-logo">
+            <img src="/assets/images/linkedin-logo.webp" alt="Microsoft logo">
+          </div>
           <div>
             <div class="certx-title">Building in Microsoft Copilot Studio</div>
-            <div class="certx-provider">Microsoft</div>
+            <div class="certx-provider">LinkedIn Learning</div>
           </div>
         </header>
         <div class="certx-body">
-          Designed copilots with topics, entities, and plugins; connected data sources and governed conversation flow for business-ready answers.
+          Developed conversational AI chatbot with custom topics, entities, and API integrations, implementing secure authentication and multi-channel deployment for enterprise environments.
         </div>
         <footer class="certx-footer">
-          <div class="certx-date">11 May 2025</div>
-          <a class="certx-btn" href="/certs/microsoft-copilot-studio" target="_blank" rel="noopener" aria-label="View certificate for Microsoft Copilot Studio">
+          <div class="certx-date">July 06 2024</div>
+          <a class="certx-btn" href="/assets/images/Building in Microsoft Copilot Studio.pdf" target="_blank" rel="noopener" aria-label="View certificate for Microsoft Copilot Studio">
             View certificate
           </a>
         </footer>
@@ -78,19 +80,20 @@ permalink: /certifications/
       <!-- Power BI for Data Analysts -->
       <article class="certx-card">
         <header class="certx-header">
-          <!-- <div class="certx-logo"><img src="/assets/logos/powerbi.svg" alt="Power BI logo"></div> -->
-          <div class="certx-logo" title="Microsoft Power BI">BI</div>
+          <div class="certx-logo">
+            <img src="/assets/images/linkedin-logo.webp" alt="Microsoft Power BI logo">
+          </div>
           <div>
             <div class="certx-title">Power BI for Data Analysts</div>
-            <div class="certx-provider">Microsoft Press</div>
+            <div class="certx-provider">LinkedIn Learning</div>
           </div>
         </header>
         <div class="certx-body">
-          Practiced data ingestion and transformation with Power Query, modeled data, and delivered shareable, secure reports and dashboards.
+          Advanced data visualization and ETL transformation of raw data from multiple sources into interactive dashboards with secure sharing and collaboration workflows with Power BI service.
         </div>
         <footer class="certx-footer">
-          <div class="certx-date">11 May 2025</div>
-          <a class="certx-btn" href="/certs/power-bi-data-analysts" target="_blank" rel="noopener" aria-label="View certificate for Power BI for Data Analysts">
+          <div class="certx-date">July 21 2024</div>
+          <a class="certx-btn" href="/assets/images/Power BI for Data.pdf" target="_blank" rel="noopener" aria-label="View certificate for Power BI for Data Analysts">
             View certificate
           </a>
         </footer>
@@ -99,23 +102,25 @@ permalink: /certifications/
       <!-- SQL for Data Engineering -->
       <article class="certx-card">
         <header class="certx-header">
-          <!-- <div class="certx-logo"><img src="/assets/logos/sql.svg" alt="SQL logo"></div> -->
-          <div class="certx-logo" title="SQL">SQL</div>
+          <div class="certx-logo">
+            <img src="/assets/images/linkedin-logo.webp" alt="SQL logo">
+          </div>
           <div>
             <div class="certx-title">SQL for Data Engineering: Beginner → Advanced</div>
-            <div class="certx-provider">LinkedIn</div>
+            <div class="certx-provider">LinkedIn Learning</div>
           </div>
         </header>
         <div class="certx-body">
-          Mastered querying and data manipulation with joins, aggregates, and window functions, plus role-based permissions and user management.
+          Comprehensive SQL proficiency from basic queries to advanced data engineering: joins, window functions, stored procedures, and database security management.
         </div>
         <footer class="certx-footer">
-          <div class="certx-date">11 May 2025</div>
-          <a class="certx-btn" href="/certs/sql-data-engineering" target="_blank" rel="noopener" aria-label="View certificate for SQL for Data Engineering">
+          <div class="certx-date">29 Sep 2024</div>
+          <a class="certx-btn" href="/assets/images/SQL for Data Engineering.pdf" target="_blank" rel="noopener" aria-label="View certificate for SQL for Data Engineering">
             View certificate
           </a>
         </footer>
       </article>
+
     </div>
   </div>
 </section>

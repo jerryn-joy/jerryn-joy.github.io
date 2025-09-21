@@ -10,10 +10,9 @@ permalink: /contact/
 
     <!-- CTA replaces old "Get In Touch" -->
     <div class="contact-cta">
-      <h2 class="contact-hero">Let’s Connect &amp; Build Something Amazing!</h2>
+      <h2 class="contact-hero">Let us Connect and Build Something Amazing!</h2>
       <p class="contact-sub">
-        I’m always interested in new opportunities and exciting projects.
-        Let’s discuss how we can work together!
+        I am always excited to explore new opportunities and innovative projects. If you are looking for someone who delivers impact, that is me.
       </p>
     </div>
 
@@ -55,9 +54,6 @@ permalink: /contact/
             </a>
             <a href="https://www.linkedin.com/in/jerryn-cheenical-joy/" target="_blank" aria-label="LinkedIn">
               <img src="{{ '/assets/images/linkedin-logo.webp' | relative_url }}" alt="LinkedIn">
-            </a>
-            <a href="mailto:jerrynjoy.jj@gmail.com" aria-label="Email">
-              <img src="{{ '/assets/images/gmail-logo.webp' | relative_url }}" alt="Email">
             </a>
             <a href="https://www.xing.com/profile/JerrynCheenical_Joy" target="_blank" aria-label="Xing">
               <img src="{{ '/assets/images/xing-logo.webp' | relative_url }}" alt="Xing">

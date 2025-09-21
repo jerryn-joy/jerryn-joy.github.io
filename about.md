@@ -11,26 +11,38 @@ permalink: /about/
 
     <!-- Header -->
     <header class="about-header section-header">
-      <h1 class="section-title">I build AI & automation systems that boost efficiency and elevate customer experience.</h1>
-
-      <!-- Education-style badge (from example, but with your blue theme) -->
-      <div class="about-badge" aria-label="Current focus badge">
-        <svg class="about-badge__icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-          <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
-        </svg>
-        <span><strong>AI Project/Automation</strong> • Product & workflow design, research, delivery</span>
-      </div>
+      <h1 class="section-title">Building smarter businesses with customer-focused automation.</h1>
     </header>
+
+        <!-- Stats (3-up) -->
+    <section class="about-stats" aria-label="Quick stats">
+      <div class="about-stat">
+        <span class="about-stat__num">3+</span>
+        <span class="about-stat__label">Years in Automation</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat__num">20+</span>
+        <span class="about-stat__label">AI / SaaS Integrations</span>
+      </div>
+      <div class="about-stat">
+        <span class="about-stat__num">1000+</span>
+        <span class="about-stat__label">Hours of Work Automated</span>
+      </div>
+    </section>
 
     <!-- Content grid -->
     <div class="about-grid">
       <!-- Journey (left) -->
       <article class="about-journey">
-        <h2 class="about-h2">My Journey</h2>
-        <p>I design and manage AI and automation systems that help businesses work more efficiently and improve customer experience. I’ve built smart workflows, chatbots, and automated ops for sales, marketing, and support.</p>
-        <p>I also have a strong background in project management, partnering with cross-functional teams and stakeholders to deliver digital products in fast-moving environments. I’m currently exploring roles as an <strong>AI Project Manager</strong>, <strong>Automation Specialist</strong>, or <strong>AI Product Manager</strong>.</p>
-        <p>I’m curious, collaborative, and hands-on — whether it’s discussing new tech trends, refining a design, or troubleshooting a gnarly bug.</p>
-        <p>Outside of coding, I enjoy traveling and gaming. Let’s connect and build something awesome together!</p>
+        <h2 class="about-h2">My Background and Focus</h2>
+
+        <ul class="about-bullets">
+          <li>I am a dedicated <strong>Automation Specialist</strong> with a strong track record of building <strong>scalable, AI-enhanced workflows</strong> using <strong>Make.com</strong>, <strong>Zapier</strong>, <strong>n8n</strong>, and <strong>Power Automate</strong>.</li>
+          <li>With hands-on experience in <strong>business development</strong> and <strong>sales</strong>, I understand customer pain points and turn them into digital solutions. Having onboarded and supported <strong>50+ international B2B vendors</strong>, I know how to think from the user’s perspective to design processes that truly deliver value.</li>
+          <li>My career bridges <strong>automation</strong>, <strong>AI product management</strong>, and <strong>customer-facing roles</strong>, enabling me to create solutions that are both <strong>technically sound</strong> and <strong>commercially impactful</strong> — from <strong>sales pipeline automation</strong> to <strong>chatbots</strong> and <strong>AI-powered tools</strong>. I bring both technical execution and business strategy to the table.</li>
+          <li>I also have a strong background in <strong>project management</strong>, collaborating with <strong>cross-functional teams</strong> and stakeholders to deliver products in <strong>fast-moving environments</strong>. I’m currently exploring roles as an <strong>AI Project Manager</strong>, <strong>Automation Specialist</strong>, or <strong>AI Product Manager</strong>.</li>
+          <li><strong>Curious, collaborative, and hands-on</strong>, I enjoy exploring new <strong>AI tools</strong> and building side projects that test how technology creates value in real workflows.</li>
+        </ul>
       </article>
 
       <!-- How I Work (right) -->
@@ -43,7 +55,7 @@ permalink: /about/
               <div class="about-card__icon">⌁</div>
               <h3>Clean Systems</h3>
             </div>
-            <p>Design first, then automate. I model processes clearly so the code and workflows stay reliable and maintainable.</p>
+            <p> Design first, then automate. I map processes clearly so workflows in Make.com, Zapier, or n8n stay reliable and scalable.</p>
           </div>
           <!-- Card 2 -->
           <div class="about-card">
@@ -51,7 +63,7 @@ permalink: /about/
               <div class="about-card__icon">★</div>
               <h3>Practical Innovation</h3>
             </div>
-            <p>I pilot LLM features where they matter — measurable wins in response time, cost, or customer satisfaction.</p>
+            <p> I pilot AI where it matters - Chatbots, RAG pipelines or AI agents - always measured by real impact: faster responses, lower costs, higher satisfaction.</p>
           </div>
           <!-- Card 3 -->
           <div class="about-card">
@@ -59,7 +71,7 @@ permalink: /about/
               <div class="about-card__icon">🤝</div>
               <h3>Collaboration</h3>
             </div>
-            <p>Cross-functional by default. I align stakeholders early, share progress often, and de-risk delivery.</p>
+            <p>Cross-functional by default. I align sales, marketing, and product teams early, share progress often, and de-risk delivery with Agile practices</p>
           </div>
           <!-- Card 4 -->
           <div class="about-card">
@@ -67,27 +79,11 @@ permalink: /about/
               <div class="about-card__icon">⚡</div>
               <h3>Performance</h3>
             </div>
-            <p>Fast, observable, and accessible. I optimize flows, add telemetry, and keep UX crisp end-to-end.</p>
+            <p> Automation is not just speed - it is outcomes. I track KPIs like lead conversion, engagement, and accuracy to ensure solutions are measurable and user-friendly.</p>
           </div>
         </div>
       </aside>
     </div>
-
-    <!-- Stats (3-up) -->
-    <section class="about-stats" aria-label="Quick stats">
-      <div class="about-stat">
-        <span class="about-stat__num">10+</span>
-        <span class="about-stat__label">Projects Delivered</span>
-      </div>
-      <div class="about-stat">
-        <span class="about-stat__num">3+</span>
-        <span class="about-stat__label">Years Experience</span>
-      </div>
-      <div class="about-stat">
-        <span class="about-stat__num">30+</span>
-        <span class="about-stat__label">Tools &amp; Tech</span>
-      </div>
-    </section>
 
   </div>
 </section>
@@ -95,7 +91,7 @@ permalink: /about/
 <!-- ===== Scoped styles: only for this page; use your tokens & cards ===== -->
 <style>
   /* Page wrapper tweaks */
-  .about.about--modern { padding: 6rem 0; background: var(--bg); }
+  .about.about--modern { padding: 3rem 0; background: var(--bg); }
 
   /* Header */
   .about-header { margin-bottom: 3rem; text-align: center; }
@@ -111,24 +107,46 @@ permalink: /about/
   }
   .about-badge__icon{ width:18px; height:18px; color:var(--blue); }
 
-  /* Grid */
+  /* Widen the About container ONLY (more room left/right) */
+  .about .container {
+    max-width: 1647px;     /* wider than global --max */
+    padding: 0 3rem;       /* comfy inner gutter */
+  }
+
+  /* Grid (more space between columns; wider text column; keep card size) */
   .about-grid{
     display:grid;
-    grid-template-columns: 1.1fr 1fr; /* text slightly wider (like your hero) */
-    gap: 2.5rem;
+    grid-template-columns: 1.25fr minmax(700px, 740px); /* text wider; cards col capped */
+    column-gap: 8rem;        /* more distance between text and cards */
+    row-gap: 2rem;
     align-items:start;
-    margin-top: 1rem;
+    margin-top: 4rem;
   }
+
   .about-h2{
     font-size:1.35rem; font-weight:800; color:var(--text);
     margin: .25rem 0 1rem;
   }
   .about-journey p{ color:var(--muted); line-height:1.8; margin:.8rem 0; }
 
-  /* Work cards (reuse your card language & variables) */
+  /* Bullet list for My Journey */
+  .about-journey .about-bullets {
+    margin: .5rem 0 0;
+    padding-left: 1.25rem;
+    color: var(--muted);
+    line-height: 1.8;
+  }
+  .about-journey .about-bullets li { margin: .6rem 0; }
+  .about-journey .about-bullets li::marker { color: var(--blue); font-weight: 700; }
+
+  /* How I Work cards (keep card size the same) */
   .about-work__title { text-align:left; }
+  .about-work { max-width: 740px; } /* lock the whole column */
   .about-work__grid{
-    display:grid; grid-template-columns: 1fr 1fr; gap: 1rem;
+    display:grid;
+    grid-template-columns: repeat(2, 350px); /* fixed card width */
+    justify-content: start;                   /* don’t stretch */
+    gap: 1rem;
   }
   .about-card{
     background: var(--bg-alt);
@@ -187,13 +205,16 @@ permalink: /about/
   .about-stat__label{ color:var(--muted); font-weight:600; }
 
   /* Responsive */
-  @media (max-width: 1024px){
-    .about-grid{ grid-template-columns: 1fr; gap:2rem; }
-    .about-work__grid{ grid-template-columns: 1fr 1fr; }
+  @media (max-width: 1200px){
+    .about-grid{ grid-template-columns: 1fr; }
+    .about-work { max-width: none; }
+    .about-work__grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 768px){
     .about-work__grid{ grid-template-columns: 1fr; }
     .about-stats{ grid-template-columns: 1fr; }
+    .about .container { padding: 0 1.25rem; } /* a bit tighter on small screens */
+    .about-grid { column-gap: 1.5rem; }
   }
 
   /* Small entrance animation (respect reduced motion) */
@@ -204,3 +225,4 @@ permalink: /about/
     .about-stats > *:nth-child(3){ animation-delay:.1s; }
   }
 </style>
+

@@ -15,8 +15,8 @@ permalink: /education/
     <div class="edu-grid">
       <!-- Card 1 -->
       <article class="edu-card">
-        <div class="edu-icon">
-          <i class="fas fa-graduation-cap"></i>
+        <div class="edu-logo">
+          <img src="/assets/images/rwth.jpg" alt="RWTH Aachen University logo">
         </div>
         <div class="edu-body">
           <h3 class="edu-degree">Master of Science in Computer Aided Mechanical Engineering</h3>
@@ -27,8 +27,8 @@ permalink: /education/
 
       <!-- Card 2 -->
       <article class="edu-card">
-        <div class="edu-icon">
-          <i class="fas fa-university"></i>
+        <div class="edu-logo">
+          <img src="/assets/images/Pune.png" alt="Pune University logo">
         </div>
         <div class="edu-body">
           <h3 class="edu-degree">Bachelor of Engineering in Mechanical Engineering</h3>
