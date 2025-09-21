@@ -1,22 +1,9 @@
 ---
-layout: default
+layout: layout
 title: "Projects • Jerryn Joy"
 description: "Selected AI, automation, and product projects."
 permalink: /projects/
 ---
-
-<!-- Page-scoped tweak: keep 3-column grid on this page so a single card doesn't grow -->
-<style>
-  .projects.projects--lock .projects-grid {
-    grid-template-columns: repeat(3, minmax(350px, 1fr));
-  }
-  /* Preserve your existing mobile stack */
-  @media (max-width: 768px) {
-    .projects.projects--lock .projects-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
 
 <section class="projects projects--lock">
   <div class="container">
@@ -31,7 +18,9 @@ permalink: /projects/
       <!-- KEEP: Zero-Cost AI Lead Qualification -->
       <div class="project-card">
         <div class="project-image">
-          <img src="/assets/images/ai_lead_qualification_banner.svg" alt="E-Commerce Platform" style="width:100%;height:100%;object-fit:cover;">
+          <img src="/assets/images/logos/banner-ai-lead-qualification.svg"
+               alt="Zero-Cost AI Lead Qualification banner"
+               width="1200" height="600" loading="lazy" decoding="async">
         </div>
         <div class="project-content">
           <h3 class="project-title">Zero-Cost AI Lead Qualification</h3>
@@ -44,8 +33,8 @@ permalink: /projects/
             <span class="tech-tag">Voiceflow</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank"><i class="fab fa-github"></i> Code</a>
+            <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
           </div>
         </div>
       </div>

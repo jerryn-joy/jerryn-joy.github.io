@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout
 title: "Education • Jerryn Joy"
 description: "Education background and highlights."
 permalink: /education/
@@ -16,7 +16,7 @@ permalink: /education/
       <!-- Card 1 -->
       <article class="edu-card">
         <div class="edu-logo">
-          <img src="/assets/images/rwth.jpg" alt="RWTH Aachen University logo">
+          <img src="/assets/images/logos/logo-rwth.jpg" alt="RWTH Aachen University logo" loading="lazy" decoding="async" width="64" height="64">
         </div>
         <div class="edu-body">
           <h3 class="edu-degree">Master of Science in Computer Aided Mechanical Engineering</h3>
@@ -28,7 +28,7 @@ permalink: /education/
       <!-- Card 2 -->
       <article class="edu-card">
         <div class="edu-logo">
-          <img src="/assets/images/Pune.png" alt="Pune University logo">
+          <img src="/assets/images/logos/logo-pune.png" alt="Pune University logo" loading="lazy" decoding="async" width="64" height="64">
         </div>
         <div class="edu-body">
           <h3 class="edu-degree">Bachelor of Engineering in Mechanical Engineering</h3>

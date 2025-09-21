@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout
 title: "Home • Jerryn Joy"
 description: "AI Product Owner & Automation Specialist — portfolio and contact."
 permalink: /
@@ -11,10 +11,12 @@ permalink: /
       <!-- LEFT: photo only -->
       <div class="hero-left">
         <img
-          src="/assets/images/joy_jerryn_cheenical_photo.webp"
-          alt="Jerryn Joy"
-          class="profile-avatar"
-        />
+        src="/assets/personal-files/photo-jerryn-joy.webp"
+        alt="Jerryn Joy"
+        class="profile-avatar"
+        width="280" height="280"
+        loading="eager" fetchpriority="high"
+      />
       </div>
 
       <!-- RIGHT: everything else -->
@@ -58,7 +60,7 @@ permalink: /
 
         <div class="cta-buttons">
           <a href="/contact/" class="btn btn-primary">Get In Touch</a>
-          <a href="#projects" class="btn btn-secondary">View My Projects</a>
+          <a href="/projects/" class="btn btn-secondary">View My Projects</a>
         </div>
       </div>
     </div>

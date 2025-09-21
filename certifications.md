@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout
 title: "Certifications • Jerryn Joy"
 description: "Professional and additional certifications."
 permalink: /certifications/
@@ -17,7 +17,7 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/BadenCampus.webp" alt="BadenCampus logo">
+            <img src="/assets/images/logos/logo-badencampus.webp" alt="BadenCampus logo">
           </div>
           <div>
             <div class="certx-title">Winner - Black Forest Hackathon</div>
@@ -40,7 +40,7 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/DeeplearningAI.jpeg" alt="DeepLearning.AI logo">
+            <img src="/assets/images/logos/logo-deeplearningai.jpg" alt="DeepLearning.AI logo">
           </div>
           <div>
             <div class="certx-title">LangChain for LLM Application Development</div>
@@ -59,7 +59,7 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/linkedin-logo.webp" alt="Microsoft logo">
+            <img src="/assets/images/logos/logo-linkedin.webp" alt="Microsoft logo">
           </div>
           <div>
             <div class="certx-title">Building in Microsoft Copilot Studio</div>
@@ -71,7 +71,7 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">July 06 2024</div>
-          <a class="certx-btn" href="/assets/images/Building in Microsoft Copilot Studio.pdf" target="_blank" rel="noopener" aria-label="View certificate for Microsoft Copilot Studio">
+          <a class="certx-btn" href="/assets/images/certifications/cert-building-in-microsoft-copilot-studio.pdf" target="_blank" rel="noopener" aria-label="View certificate for Microsoft Copilot Studio">
             View certificate
           </a>
         </footer>
@@ -81,7 +81,7 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/linkedin-logo.webp" alt="Microsoft Power BI logo">
+            <img src="/assets/images/logos/logo-linkedin.webp" alt="Microsoft Power BI logo">
           </div>
           <div>
             <div class="certx-title">Power BI for Data Analysts</div>
@@ -93,7 +93,7 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">July 21 2024</div>
-          <a class="certx-btn" href="/assets/images/Power BI for Data.pdf" target="_blank" rel="noopener" aria-label="View certificate for Power BI for Data Analysts">
+          <a class="certx-btn" href="/assets/images/certifications/cert-power-bi-for-data.pdf" target="_blank" rel="noopener" aria-label="View certificate for Power BI for Data Analysts">
             View certificate
           </a>
         </footer>
@@ -103,7 +103,7 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/linkedin-logo.webp" alt="SQL logo">
+            <img src="/assets/images/logos/logo-linkedin.webp" alt="SQL logo">
           </div>
           <div>
             <div class="certx-title">SQL for Data Engineering: Beginner → Advanced</div>
@@ -115,7 +115,7 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">29 Sep 2024</div>
-          <a class="certx-btn" href="/assets/images/SQL for Data Engineering.pdf" target="_blank" rel="noopener" aria-label="View certificate for SQL for Data Engineering">
+          <a class="certx-btn" href="/assets/images/certifications/cert-sql-for-data-engineering.pdf" target="_blank" rel="noopener" aria-label="View certificate for SQL for Data Engineering">
             View certificate
           </a>
         </footer>

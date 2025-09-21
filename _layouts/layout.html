@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }}{% else %}Jerryn Joy | AI Product Owner{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}AI Product Owner specializing in automation and scalable systems.{% endif %}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="icon" type="image/png" href="/assets/personal-files/photo-jerryn-joy.png">
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <a class="btn btn-secondary resume-link"
+       href="https://jerryn-joy.github.io/assets/Resume.pdf"
+       target="_blank" rel="noopener">
+      Download Resume
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/"                class="{% if page.url == '/' %}active{% endif %}">Home</a></li>
+      <li><a href="/about/"          class="{% if page.url == '/about/' %}active{% endif %}">About</a></li>
+      <li><a href="/experience/"     class="{% if page.url == '/experience/' %}active{% endif %}">Experience</a></li>
+      <li><a href="/projects/"       class="{% if page.url == '/projects/' %}active{% endif %}">Projects</a></li>
+      <li><a href="/skills/"         class="{% if page.url == '/skills/' %}active{% endif %}">Skills</a></li>
+      <li><a href="/education/"      class="{% if page.url == '/education/' %}active{% endif %}">Education</a></li>
+      <li><a href="/certifications/" class="{% if page.url == '/certifications/' %}active{% endif %}">Certifications</a></li>
+      <li><a href="/contact/"        class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a></li>
+    </ul>
+
+    <button class="mobile-toggle"
+            id="mobileToggle"
+            aria-label="Toggle navigation"
+            aria-controls="navLinks"
+            aria-expanded="false">
+      <i class="fa-solid fa-bars" aria-hidden="true"></i>
+    </button>
+  </div>
+</nav>
+
+  <!-- Page content -->
+  <main style="padding-top: 80px;">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; {{ 'now' | date: '%Y' }} Jerryn Joy. Designed with passion for AI and automation.</p>
+    </div>
+  </footer>
+  <script src="{{ '/assets/js/site-interactions.js' | relative_url }}"></script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layout
 title: "Experience • Jerryn Joy"
 description: "Experience in AI product ownership, automation, and growth."
 permalink: /experience/
@@ -21,10 +21,10 @@ permalink: /experience/
             <h3 class="tl-role">AI Product Owner</h3>
             <div class="tl-meta">
             <div class="tl-company-row">
-              <img src="/assets/images/hyfindr-logo.webp" alt="Hyfindr" class="company-logo">
+              <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
               <span class="tl-company">Hyfindr GmbH</span>
             </div>
-            <span class="tl-period">Feb 2024 – NOW · 1 yr 7 mons</span>
+            <span class="tl-period">Feb 2024 - Present · 1 yr 7 mo</span>
           </div>
           </header>
           <ul class="tl-points">
@@ -43,10 +43,10 @@ permalink: /experience/
             <h3 class="tl-role">AI Automation Specialist</h3>
             <div class="tl-meta">
             <div class="tl-company-row">
-              <img src="/assets/images/hyfindr-logo.webp" alt="Hyfindr" class="company-logo">
+              <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
               <span class="tl-company">Hyfindr GmbH</span>
             </div>
-            <span class="tl-period">Sep 2022 – Jan 2024 · 1 yr 5 mos</span>
+            <span class="tl-period">Sep 2022 - Jan 2024 · 1 yr 5 mo</span>
           </div>
           </header>
           <ul class="tl-points">
@@ -67,10 +67,10 @@ permalink: /experience/
             <h3 class="tl-role">Business Development Specialist</h3>
             <div class="tl-meta">
             <div class="tl-company-row">
-              <img src="/assets/images/hyfindr-logo.webp" alt="Hyfindr" class="company-logo">
+              <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
               <span class="tl-company">Hyfindr GmbH</span>
             </div>
-            <span class="tl-period">Jan 2023 – Jan 2024 · 1 yr</span>
+            <span class="tl-period">Jan 2023 - Jan 2024 · 1 yr</span>
           </div>
           </header>
           <ul class="tl-points">
