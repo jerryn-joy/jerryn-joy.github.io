@@ -1,6 +1,6 @@
-# My GitHub Profile Page 🚀
+# 🌐 Welcome to My Personal Portfolio
 
-Welcome to the source code of my **GitHub Pages profile site**, built with **Jekyll**.  
+This is the source code of my **GitHub Pages profile site**, built with **Jekyll**.  
 This repository powers my personal site where I share my **profile, portfolio, skills, education, certifications, and projects**.
 
 **Take a look at my page here:** https://jerryn-joy.github.io/
@@ -19,6 +19,10 @@ This site serves as my **online portfolio**. It includes:
 - **Contact** – ways to get in touch  
 
 ---
+
+## 🚀 Featured Project  
+**AI-Powered Lead Management System**  
+An intelligent, automated pipeline for lead qualification. This project leverages AI to streamline and optimize lead conversion workflows, improving efficiency and accuracy in sales processes.  
 
 ## 🛠 Tech Stack
 
