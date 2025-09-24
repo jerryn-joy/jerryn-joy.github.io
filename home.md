@@ -50,7 +50,7 @@ permalink: /
         <!-- New description with bullet points -->
         <div class="description-list">
           <ul>
-            <li>Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python—reducing manual effort and increasing efficiency</li>
+            <li>Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python, reducing manual effort and increasing efficiency</li>
             <li>End-to-end delivery from design and prototyping to full-scale deployment</li>
             <li>Build AI assistants, chatbots, and LLM-driven tools to improve customer experience and reduce operational overhead</li>
             <li>Passionate about applying my skills in AI and automation to solve real-world business challenges</li>
