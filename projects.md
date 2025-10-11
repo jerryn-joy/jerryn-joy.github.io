@@ -33,8 +33,8 @@ permalink: /projects/
             <span class="tech-tag">Voiceflow</span>
           </div>
           <div class="project-links">
-            <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
-            <a href="https://github.com/jerryn-joy/Lead-Qualification-Pipeline" class="project-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+            <a href="https://github.com/jerryn-joy/lead-qualification-pipeline" class="project-link" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="https://github.com/jerryn-joy/lead-qualification-pipeline" class="project-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
           </div>
         </div>
       </div>
