@@ -21,8 +21,11 @@ This site serves as my **online portfolio**. It includes:
 ---
 
 ## 🚀 Featured Project  
-**AI-Powered Lead Management System**  
+- **[AI-Powered Lead Management System](https://github.com/jerryn-joy/lead-qualification-pipeline)**  
 An intelligent, automated pipeline for lead qualification. This project leverages AI to streamline and optimize lead conversion workflows, improving efficiency and accuracy in sales processes.  
+ 
+- **[AI Data Analyst Agent](https://github.com/jerryn-joy/ai-data-analyst-chatbot)**  
+A local, privacy-friendly chatbot that answers sales questions from your Google Sheet using n8n workflows, Groq LLMs, and a clean, branded chat UI. It validates/normalizes data, returns transparent calculations, and can render charts via QuickChart. 
 
 ## 🛠 Tech Stack
 
