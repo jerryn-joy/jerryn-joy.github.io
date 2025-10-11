@@ -15,7 +15,7 @@ permalink: /projects/
     </div>
     
     <div class="projects-grid">
-      <!-- KEEP: Zero-Cost AI Lead Qualification -->
+      <!-- Zero-Cost AI Lead Qualification -->
       <div class="project-card">
         <div class="project-image">
           <img src="/assets/images/logos/banner-ai-lead-qualification.svg"
@@ -38,7 +38,28 @@ permalink: /projects/
           </div>
         </div>
       </div>
-      <!-- other project cards removed -->
+      
+      <div class="project-card">
+        <div class="project-image">
+          <img src="/assets/images/logos/banner-ai-data-analyst-chatbot.png"
+               alt="AI Data Analyst Agent"
+               width="1200" height="600" loading="lazy" decoding="async">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">AI Data Analyst Agent</h3>
+          <p class="project-description">No-code, local, privacy-friendly AI chatbot for sales insights using n8n workflows, Groq models, and QuickChart visualizations.</p>
+          <div class="project-tech">
+            <span class="tech-tag">n8n</span>
+            <span class="tech-tag">QuickChart</span>
+            <span class="tech-tag">Groq</span>
+            <span class="tech-tag">Agents & Tools</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/jerryn-joy/ai-data-analyst-chatbot" class="project-link" target="_blank" rel="noopener"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="https://github.com/jerryn-joy/ai-data-analyst-chatbot" class="project-link" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

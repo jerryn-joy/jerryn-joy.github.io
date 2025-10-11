@@ -39,9 +39,9 @@ permalink: /about/
         <ul class="about-bullets">
           <li>I am a dedicated <strong>Automation Specialist</strong> with a strong track record of building <strong>scalable, AI-enhanced workflows</strong> using <strong>Make.com</strong>, <strong>Zapier</strong>, <strong>n8n</strong>, and <strong>Power Automate</strong>.</li>
           <li>With hands-on experience in <strong>business development</strong> and <strong>sales</strong>, I understand customer pain points and turn them into digital solutions. Having onboarded and supported <strong>50+ international B2B vendors</strong>, I know how to think from the user’s perspective to design processes that truly deliver value.</li>
-          <li>My career bridges <strong>automation</strong>, <strong>AI product management</strong>, and <strong>customer-facing roles</strong>, enabling me to create solutions that are both <strong>technically sound</strong> and <strong>commercially impactful</strong> - from <strong>sales pipeline automation</strong> to <strong>chatbots</strong> and <strong>AI-powered tools</strong>. I bring both technical execution and business strategy to the table.</li>
-          <li>I also have a strong background in <strong>project management</strong>, collaborating with <strong>cross-functional teams</strong> and stakeholders to deliver products in <strong>fast-moving environments</strong>. I’m currently exploring roles as an <strong>AI Project Manager</strong>, <strong>Automation Specialist</strong>, or <strong>AI Product Manager</strong>.</li>
-          <li><strong>Curious, collaborative, and hands-on</strong>, I enjoy exploring new <strong>AI tools</strong> and building side projects that test how technology creates value in real workflows.</li>
+          <li>My career combines <strong>automation</strong>, <strong>AI product management</strong>, and <strong>customer-facing roles</strong>, enabling me to create solutions that are both <strong>technically sound</strong> and <strong>commercially impactful</strong> - from <strong>sales pipeline automation</strong> to <strong>chatbots</strong> and <strong>AI-powered tools</strong>. I bring both technical execution and business strategy to the table.</li>
+          <li>I also have a strong background in <strong>project management</strong>, collaborating with <strong>cross-functional teams</strong> and stakeholders to deliver products in <strong>fast-moving environments</strong>.</li>
+          <li><strong>Curious, collaborative, and proactive</strong>, I enjoy exploring new <strong>AI tools</strong> and building side projects that test how technology creates value in real workflows.</li>
         </ul>
       </article>
 
@@ -53,7 +53,7 @@ permalink: /about/
           <div class="about-card">
             <div class="about-card__head">
               <div class="about-card__icon">⌁</div>
-              <h3>Clean Systems</h3>
+              <h3>Process-Driven Design</h3>
             </div>
             <p> Design first, then automate. I map processes clearly so workflows in Make.com, Zapier, or n8n stay reliable and scalable.</p>
           </div>
@@ -61,9 +61,9 @@ permalink: /about/
           <div class="about-card">
             <div class="about-card__head">
               <div class="about-card__icon">★</div>
-              <h3>Practical Innovation</h3>
+              <h3>Practical Implementation</h3>
             </div>
-            <p> I apply AI where it matters - Chatbots, RAG pipelines or AI agents - always measured by real impact: faster responses, lower costs, higher satisfaction.</p>
+            <p> I apply AI where it matters. Chatbots, RAG pipelines or AI agents, they are always measured by real impact: faster responses, lower costs, higher user satisfaction.</p>
           </div>
           <!-- Card 3 -->
           <div class="about-card">
@@ -71,15 +71,15 @@ permalink: /about/
               <div class="about-card__icon">🤝</div>
               <h3>Collaboration</h3>
             </div>
-            <p>Cross-functional by default. I align sales, marketing, and product teams early, share progress often, and de-risk delivery with Agile practices</p>
+            <p>I align sales, marketing, and product teams early, share progress often, and minimize project risks to ensure alignment with business objectives</p>
           </div>
           <!-- Card 4 -->
           <div class="about-card">
             <div class="about-card__head">
               <div class="about-card__icon">⚡</div>
-              <h3>Performance</h3>
+              <h3>Results-Focused Execution</h3>
             </div>
-            <p> Automation is not just speed - it is outcomes. I track KPIs like lead conversion, engagement, and accuracy to ensure solutions are measurable and user-friendly.</p>
+            <p> I establish and monitor KPIs like lead conversion, engagement, and accuracy to ensure solutions are measurable and user-friendly.</p>
           </div>
         </div>
       </aside>
