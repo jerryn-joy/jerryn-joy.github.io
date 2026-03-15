@@ -30,7 +30,7 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">11 May 2025</div>
-          <a class="certx-btn" href="/certs/black-forest-hackathon" target="_blank" rel="noopener" aria-label="View certificate for Black Forest Hackathon">
+          <a class="certx-btn" href="/assets/images/certifications/cert-hackathon.pdf" target="_blank" rel="noopener" aria-label="View certificate for Black Forest Hackathon">
             View certificate
           </a>
         </footer>
