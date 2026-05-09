@@ -10,211 +10,88 @@ permalink: /skills/
 
     <!-- Header -->
     <header class="skillsx-header">
-      <h1 class="skillsx-title">Skills and Technologies</h1>
+      <h1 class="skillsx-title">Systems, Tools & Workflow Stack</h1>
+      <p class="about-sub">A compact view of how I combine automation, AI, integrations, and product thinking to deliver practical systems.</p>
     </header>
 
     <!-- Grid -->
     <div class="skillsx-grid">
 
-      <!-- Automation Tools (Orchestration) -->
-      <div class="skillsx-card is-automation">
+      <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon">⚡</div>
-          <h3 class="skillsx-cat">Automation - Orchestration</h3>
+          <h3 class="skillsx-cat">Automation Systems</h3>
         </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Make.com</span><span class="skillsx-level">95%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="95"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Zapier</span><span class="skillsx-level">90%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="90"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">n8n</span><span class="skillsx-level">95%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="95"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Power Automate</span><span class="skillsx-level">85%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="85"></span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Make.com</span>
+          <span class="skill-tag">n8n</span>
+          <span class="skill-tag">Zapier</span>
+          <span class="skill-tag">Power Automate</span>
         </div>
       </div>
 
-      <!-- Automation Tools (Conversational) -->
-      <div class="skillsx-card is-automation">
+      <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon">💬</div>
-          <h3 class="skillsx-cat">Automation - Conversational</h3>
+          <h3 class="skillsx-cat">Conversational AI</h3>
         </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Voiceflow</span><span class="skillsx-level">90%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="90"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Microsoft Copilot Studio</span><span class="skillsx-level">90%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="90"></span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Voiceflow</span>
+          <span class="skill-tag">Microsoft Copilot Studio</span>
+          <span class="skill-tag">Chatbots</span>
+          <span class="skill-tag">RAG agents</span>
         </div>
       </div>
 
-      <!-- CRM -->
-      <div class="skillsx-card is-crm">
-        <div class="skillsx-head">
-          <div class="skillsx-icon">🏢</div>
-          <h3 class="skillsx-cat">CRM</h3>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Brevo</span><span class="skillsx-level">95%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="95"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">HubSpot</span><span class="skillsx-level">80%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="80"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Microsoft Dynamics 365</span><span class="skillsx-level">80%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="80"></span></div>
-        </div>
-      </div>
-
-      <!-- AI (Foundations) -->
-      <div class="skillsx-card is-ai">
+      <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon">🧠</div>
-          <h3 class="skillsx-cat">AI - Foundations</h3>
+          <h3 class="skillsx-cat">AI Foundations</h3>
         </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">OpenAI API</span><span class="skillsx-level">90%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="90"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">LangChain</span><span class="skillsx-level">80%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="80"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">RAG</span><span class="skillsx-level">85%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="85"></span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">OpenAI API</span>
+          <span class="skill-tag">LangChain</span>
+          <span class="skill-tag">RAG</span>
+          <span class="skill-tag">LLM workflows</span>
         </div>
       </div>
 
-      <!-- AI (Models & Agents) -->
-      <div class="skillsx-card is-ai">
-        <div class="skillsx-head">
-          <div class="skillsx-icon">🤖</div>
-          <h3 class="skillsx-cat">AI - Models &amp; Agents</h3>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">LLMs</span><span class="skillsx-level">80%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="80"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">AI Agents / Agentic Workflows</span><span class="skillsx-level">80%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="80"></span></div>
-        </div>
-      </div>
-
-      <!-- Programming & Development -->
-      <div class="skillsx-card is-dev">
+      <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon">💻</div>
-          <h3 class="skillsx-cat">Programming &amp; Development</h3>
+          <h3 class="skillsx-cat">Data & Integrations</h3>
         </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Python</span><span class="skillsx-level">75%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="75"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">API Integration</span><span class="skillsx-level">90%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="90"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Power Apps</span><span class="skillsx-level">70%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="70"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">SQL</span><span class="skillsx-level">65%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="65"></span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">API integration</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Airtable</span>
         </div>
       </div>
 
-      <!-- Project Management (Methods & Tools) -->
-      <div class="skillsx-card is-pm">
+      <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon">📋</div>
-          <h3 class="skillsx-cat">Project Management - Methods &amp; Tools</h3>
+          <h3 class="skillsx-cat">Product & Operations</h3>
         </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">JIRA</span><span class="skillsx-level">91%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="91"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Confluence</span><span class="skillsx-level">87%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="87"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Agile</span><span class="skillsx-level">89%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="89"></span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">CRM automation</span>
+          <span class="skill-tag">Process design</span>
+          <span class="skill-tag">KPI tracking</span>
+          <span class="skill-tag">Workflow governance</span>
         </div>
       </div>
 
-      <!-- Project Management (Collaboration) -->
-      <div class="skillsx-card is-pm">
+      <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon">🤝</div>
-          <h3 class="skillsx-cat">Project Management - Collaboration</h3>
+          <h3 class="skillsx-cat">Collaboration & Delivery</h3>
         </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Client Onboarding &amp; Vendor Engagement</span><span class="skillsx-level">80%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="80"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Stakeholder Management &amp; Cross-Functional Collaboration</span><span class="skillsx-level">85%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="85"></span></div>
-        </div>
-      </div>
-
-      <!-- Languages -->
-      <div class="skillsx-card is-lang">
-        <div class="skillsx-head">
-          <div class="skillsx-icon">🌍</div>
-          <h3 class="skillsx-cat">Languages</h3>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">English (Fluent)</span><span class="skillsx-level">100%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="100"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">German (B2)</span><span class="skillsx-level">75%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="87"></span></div>
-        </div>
-
-        <div class="skillsx-item">
-          <div class="skillsx-row"><span class="skillsx-name">Malayalam (Native)</span><span class="skillsx-level">100%</span></div>
-          <div class="skillsx-bar"><span class="skillsx-fill" data-width="100"></span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Stakeholder alignment</span>
+          <span class="skill-tag">Vendor onboarding</span>
+          <span class="skill-tag">Agile delivery</span>
+          <span class="skill-tag">Operational handoffs</span>
         </div>
       </div>
 

@@ -5,7 +5,7 @@ description: "Get in touch for AI product, automation, and PM roles."
 permalink: /contact/
 ---
 
-<section id="contact" class="contact">
+<section id="contact" class="hero contact">
   <div class="container">
 
     <!-- CTA replaces old "Get In Touch" -->

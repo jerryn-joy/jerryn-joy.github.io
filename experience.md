@@ -20,17 +20,17 @@ permalink: /experience/
           <header class="tl-head">
             <h3 class="tl-role">AI Product Owner</h3>
             <div class="tl-meta">
-            <div class="tl-company-row">
-              <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
-              <span class="tl-company">Hyfindr GmbH</span>
+              <div class="tl-company-row">
+                <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
+                <span class="tl-company">Hyfindr GmbH</span>
+              </div>
+              <span class="tl-period">Feb 2024 - Present · 1 yr 7 mo</span>
             </div>
-            <span class="tl-period">Feb 2024 - Present · 1 yr 7 mo</span>
-          </div>
           </header>
+          <p class="role-summary">Led AI automation initiatives across customer support, sales operations, and internal tooling.</p>
           <ul class="tl-points">
-            <li>Developed conversational AI chatbot with Voiceflow, automating 40% of customer replies and reducing response times by 70%</li>
-            <li>Led the project "Hyfindr AI" (AI-powered product search tool) enabling natural language queries for supplier/product discovery, increasing user engagement 25% and customer satisfaction 50%</li>
-            <li>Built Agentic Process Automation (APA) pipeline using Python, LangChain, and RAG to extract key data from technical datasheets via LLMs, processing 1,000+ documents and storing results in MySQL database</li>
+            <li>Automated conversational workflows that cut response times 70% and improved engagement.</li>
+            <li>Built a RAG pipeline that processed 1,000+ technical documents into structured supplier insights.</li>
           </ul>
         </div>
       </article>
@@ -42,19 +42,17 @@ permalink: /experience/
           <header class="tl-head">
             <h3 class="tl-role">AI Automation Specialist</h3>
             <div class="tl-meta">
-            <div class="tl-company-row">
-              <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
-              <span class="tl-company">Hyfindr GmbH</span>
+              <div class="tl-company-row">
+                <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
+                <span class="tl-company">Hyfindr GmbH</span>
+              </div>
+              <span class="tl-period">Sep 2022 - Jan 2024 · 1 yr 5 mo</span>
             </div>
-            <span class="tl-period">Sep 2022 - Jan 2024 · 1 yr 5 mo</span>
-          </div>
           </header>
+          <p class="role-summary">Delivered automation systems that reduced manual work across sales, marketing, and reporting.</p>
           <ul class="tl-points">
-            <li>Built end-to-end sales & marketing automations in Brevo CRM using Make.com, reducing manual tasks by 60% and processing 500+ leads monthly</li>
-            <li>Built automated reporting system connecting Power BI to Brevo CRM for data-driven decision-making, reducing report preparation time by 80%</li>
-            <li>Automated business-card scanning & lead capture, processing 300+ cards per event and eliminating 10 hours of  manual entry</li>
-            <li>Implemented real-time email workflows with n8n, achieving 45% faster response times</li>
-            <li>Created "Hyfindr App" using Microsoft Power Apps and SharePoint for internal price negotiation support</li>
+            <li>Built sales automations in Brevo CRM using Make.com, reducing manual tasks 60% and processing 500+ leads monthly.</li>
+            <li>Launched automated reporting and email workflows, cutting report prep time 80% and accelerating decision-making.</li>
           </ul>
         </div>
       </article>
@@ -66,17 +64,17 @@ permalink: /experience/
           <header class="tl-head">
             <h3 class="tl-role">Business Development Specialist</h3>
             <div class="tl-meta">
-            <div class="tl-company-row">
-              <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
-              <span class="tl-company">Hyfindr GmbH</span>
+              <div class="tl-company-row">
+                <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
+                <span class="tl-company">Hyfindr GmbH</span>
+              </div>
+              <span class="tl-period">Jan 2023 - Jan 2024 · 1 yr</span>
             </div>
-            <span class="tl-period">Jan 2023 - Jan 2024 · 1 yr</span>
-          </div>
           </header>
+          <p class="role-summary">Scaled marketplace growth with vendor onboarding, retention, and data-driven operational improvements.</p>
           <ul class="tl-points">
-            <li>Scaled B2B marketplace by onboarding 50+ international vendors, driving 25% revenue growth</li>
-            <li>Improved vendor retention by 40% through systematic feedback loops and process optimization</li>
-            <li>Analyzed performance metrics and delivered monthly insights to C-level stakeholders</li>
+            <li>Onboarded 50+ international vendors to increase marketplace reach and support 25% revenue growth.</li>
+            <li>Improved vendor retention by 40% through structured feedback loops and process optimization.</li>
           </ul>
         </div>
       </article>

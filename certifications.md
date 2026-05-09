@@ -14,14 +14,15 @@ permalink: /certifications/
     <div class="certx-grid modern">
 
       <!-- Award -->
-      <article class="certx-card">
+      <article class="certx-card certx-card--featured">
+        <div class="certx-badge">1</div>
         <header class="certx-header">
           <div class="certx-logo">
             <img src="/assets/images/logos/logo-badencampus.webp" alt="BadenCampus logo">
           </div>
           <div>
             <div class="certx-title">Winner - Black Forest Hackathon</div>
-            <div class="certx-provider">BadenCampus • Partner: Liebherr</div>
+            <div class="certx-provider">BadenCampus</div>
           </div>
         </header>
         <div class="certx-body">
