@@ -8,18 +8,16 @@ permalink: /skills/
 <section id="skills" class="skills skills--modern">
   <div class="container">
 
-    <!-- Header -->
     <header class="skillsx-header">
       <h1 class="skillsx-title">Systems, Tools & Workflow Stack</h1>
       <p class="about-sub">A compact view of how I combine automation, AI, integrations, and product thinking to deliver practical systems.</p>
     </header>
 
-    <!-- Grid -->
     <div class="skillsx-grid">
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon">⚡</div>
+          <div class="skillsx-icon" aria-hidden="true">⚡</div>
           <h3 class="skillsx-cat">Automation Systems</h3>
         </div>
         <div class="skill-tags">
@@ -32,7 +30,7 @@ permalink: /skills/
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon">💬</div>
+          <div class="skillsx-icon" aria-hidden="true">💬</div>
           <h3 class="skillsx-cat">Conversational AI</h3>
         </div>
         <div class="skill-tags">
@@ -45,7 +43,7 @@ permalink: /skills/
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon">🧠</div>
+          <div class="skillsx-icon" aria-hidden="true">🧠</div>
           <h3 class="skillsx-cat">AI Foundations</h3>
         </div>
         <div class="skill-tags">
@@ -58,7 +56,7 @@ permalink: /skills/
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon">💻</div>
+          <div class="skillsx-icon" aria-hidden="true">💻</div>
           <h3 class="skillsx-cat">Data & Integrations</h3>
         </div>
         <div class="skill-tags">
@@ -71,7 +69,7 @@ permalink: /skills/
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon">📋</div>
+          <div class="skillsx-icon" aria-hidden="true">📋</div>
           <h3 class="skillsx-cat">Product & Operations</h3>
         </div>
         <div class="skill-tags">
@@ -84,7 +82,7 @@ permalink: /skills/
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon">🤝</div>
+          <div class="skillsx-icon" aria-hidden="true">🤝</div>
           <h3 class="skillsx-cat">Collaboration & Delivery</h3>
         </div>
         <div class="skill-tags">

@@ -8,17 +8,26 @@ permalink: /
 <section id="home" class="hero">
   <div class="container">
     <div class="hero-content">
+
+      <!-- Left column: photo + name -->
       <div class="hero-left">
-        <img src="\assets\personal-files\photo-jerryn-joy.webp" alt="Jerryn Joy" class="profile-avatar" loading="eager" decoding="async">
+        <img src="/assets/personal-files/photo-jerryn-joy.webp"
+             alt="Jerryn Joy"
+             class="profile-avatar"
+             loading="eager"
+             decoding="async"
+             width="230" height="230">
+
         <div class="hero-intro">
-          <h1>Hello, I am Jerryn Joy 👋</h1>
+          <h1>Hello, I am Jerryn Joy <span class="wave">👋</span></h1>
           <p class="hero-roles">Business Automation Specialist | AI Product Owner | AI Project Manager</p>
         </div>
       </div>
 
+      <!-- Right column: headline + rotator + bullets + CTAs -->
       <div class="hero-right">
         <h2 class="hero-main-title">Building intelligent systems that improve operational efficiency</h2>
-        
+
         <h3 class="typing-title">
           <span id="phrase-rotator" aria-live="polite"></span>
         </h3>
@@ -34,6 +43,7 @@ permalink: /
           <a href="/projects/" class="btn btn-secondary">View My Projects</a>
         </div>
       </div>
+
     </div>
   </div>
 </section>

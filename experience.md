@@ -13,7 +13,8 @@ permalink: /experience/
     </div>
 
     <div class="tl">
-      <!-- 1 -->
+
+      <!-- Role 1 — current, left side -->
       <article class="tl-item left">
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="tl-card">
@@ -21,7 +22,11 @@ permalink: /experience/
             <h3 class="tl-role">AI Product Owner</h3>
             <div class="tl-meta">
               <div class="tl-company-row">
-                <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
+                <img src="/assets/images/logos/logo-hyfindr.webp"
+                     alt="Hyfindr logo"
+                     class="company-logo"
+                     loading="lazy" decoding="async"
+                     width="24" height="24">
                 <span class="tl-company">Hyfindr GmbH</span>
               </div>
               <span class="tl-period">Feb 2024 - Present · 1 yr 7 mo</span>
@@ -35,7 +40,7 @@ permalink: /experience/
         </div>
       </article>
 
-      <!-- 2 -->
+      <!-- Role 2 — right side -->
       <article class="tl-item right">
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="tl-card">
@@ -43,7 +48,11 @@ permalink: /experience/
             <h3 class="tl-role">AI Automation Specialist</h3>
             <div class="tl-meta">
               <div class="tl-company-row">
-                <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
+                <img src="/assets/images/logos/logo-hyfindr.webp"
+                     alt="Hyfindr logo"
+                     class="company-logo"
+                     loading="lazy" decoding="async"
+                     width="24" height="24">
                 <span class="tl-company">Hyfindr GmbH</span>
               </div>
               <span class="tl-period">Sep 2022 - Jan 2024 · 1 yr 5 mo</span>
@@ -57,7 +66,7 @@ permalink: /experience/
         </div>
       </article>
 
-      <!-- 3 -->
+      <!-- Role 3 — left side -->
       <article class="tl-item left">
         <span class="tl-dot" aria-hidden="true"></span>
         <div class="tl-card">
@@ -65,7 +74,11 @@ permalink: /experience/
             <h3 class="tl-role">Business Development Specialist</h3>
             <div class="tl-meta">
               <div class="tl-company-row">
-                <img src="/assets/images/logos/logo-hyfindr.webp" alt="Hyfindr" class="company-logo" loading="lazy" decoding="async" width="24" height="24">
+                <img src="/assets/images/logos/logo-hyfindr.webp"
+                     alt="Hyfindr logo"
+                     class="company-logo"
+                     loading="lazy" decoding="async"
+                     width="24" height="24">
                 <span class="tl-company">Hyfindr GmbH</span>
               </div>
               <span class="tl-period">Jan 2023 - Jan 2024 · 1 yr</span>
@@ -78,7 +91,7 @@ permalink: /experience/
           </ul>
         </div>
       </article>
-    </div>
 
+    </div>
   </div>
 </section>

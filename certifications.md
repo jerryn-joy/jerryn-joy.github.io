@@ -1,24 +1,27 @@
 ---
 layout: layout
 title: "Certifications • Jerryn Joy"
-description: "Professional and additional certifications."
+description: "Professional certifications and awards."
 permalink: /certifications/
 ---
 
 <section id="certifications" class="certifications-section">
   <div class="container">
+
     <div class="section-header">
       <h2 class="section-title">Certifications and Awards</h2>
     </div>
 
-    <div class="certx-grid modern">
+    <div class="certx-grid">
 
-      <!-- Award -->
+      <!-- Award — featured card with trophy badge -->
       <article class="certx-card certx-card--featured">
-        <div class="certx-badge">1</div>
+        <div class="certx-badge" aria-label="Award winner">🏆</div>
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/logos/logo-badencampus.webp" alt="BadenCampus logo">
+            <img src="/assets/images/logos/logo-badencampus.webp"
+                 alt="BadenCampus logo"
+                 loading="lazy" decoding="async">
           </div>
           <div>
             <div class="certx-title">Winner - Black Forest Hackathon</div>
@@ -27,21 +30,26 @@ permalink: /certifications/
         </header>
         <div class="certx-body">
           Built an AI system to automatically validate supplier certificates and detect discrepancies, significantly reducing manual review time.
-          Tools used: Python, GPT-4, MegaParse and MySQL
+          Tools used: Python, GPT-4, MegaParse and MySQL.
         </div>
         <footer class="certx-footer">
           <div class="certx-date">11 May 2025</div>
-          <a class="certx-btn" href="/assets/images/certifications/cert-hackathon.pdf" target="_blank" rel="noopener" aria-label="View certificate for Black Forest Hackathon">
+          <a class="certx-btn"
+             href="/assets/images/certifications/cert-hackathon.pdf"
+             target="_blank" rel="noopener"
+             aria-label="View certificate for Black Forest Hackathon">
             View certificate
           </a>
         </footer>
       </article>
 
-      <!-- LangChain / DeepLearning.AI -->
+      <!-- LangChain / DeepLearning.AI — no certificate link issued -->
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/logos/logo-deeplearningai.jpg" alt="DeepLearning.AI logo">
+            <img src="/assets/images/logos/logo-deeplearningai.jpg"
+                 alt="DeepLearning.AI logo"
+                 loading="lazy" decoding="async">
           </div>
           <div>
             <div class="certx-title">LangChain for LLM Application Development</div>
@@ -60,7 +68,9 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/logos/logo-linkedin.webp" alt="Microsoft logo">
+            <img src="/assets/images/logos/logo-linkedin.webp"
+                 alt="LinkedIn Learning logo"
+                 loading="lazy" decoding="async">
           </div>
           <div>
             <div class="certx-title">Building in Microsoft Copilot Studio</div>
@@ -72,7 +82,10 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">July 06 2024</div>
-          <a class="certx-btn" href="/assets/images/certifications/cert-building-in-microsoft-copilot-studio.pdf" target="_blank" rel="noopener" aria-label="View certificate for Microsoft Copilot Studio">
+          <a class="certx-btn"
+             href="/assets/images/certifications/cert-building-in-microsoft-copilot-studio.pdf"
+             target="_blank" rel="noopener"
+             aria-label="View certificate for Microsoft Copilot Studio">
             View certificate
           </a>
         </footer>
@@ -82,7 +95,9 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/logos/logo-linkedin.webp" alt="Microsoft Power BI logo">
+            <img src="/assets/images/logos/logo-linkedin.webp"
+                 alt="LinkedIn Learning logo"
+                 loading="lazy" decoding="async">
           </div>
           <div>
             <div class="certx-title">Power BI for Data Analysts</div>
@@ -94,7 +109,10 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">July 21 2024</div>
-          <a class="certx-btn" href="/assets/images/certifications/cert-power-bi-for-data.pdf" target="_blank" rel="noopener" aria-label="View certificate for Power BI for Data Analysts">
+          <a class="certx-btn"
+             href="/assets/images/certifications/cert-power-bi-for-data.pdf"
+             target="_blank" rel="noopener"
+             aria-label="View certificate for Power BI for Data Analysts">
             View certificate
           </a>
         </footer>
@@ -104,7 +122,9 @@ permalink: /certifications/
       <article class="certx-card">
         <header class="certx-header">
           <div class="certx-logo">
-            <img src="/assets/images/logos/logo-linkedin.webp" alt="SQL logo">
+            <img src="/assets/images/logos/logo-linkedin.webp"
+                 alt="LinkedIn Learning logo"
+                 loading="lazy" decoding="async">
           </div>
           <div>
             <div class="certx-title">SQL for Data Engineering: Beginner → Advanced</div>
@@ -116,7 +136,10 @@ permalink: /certifications/
         </div>
         <footer class="certx-footer">
           <div class="certx-date">29 Sep 2024</div>
-          <a class="certx-btn" href="/assets/images/certifications/cert-sql-for-data-engineering.pdf" target="_blank" rel="noopener" aria-label="View certificate for SQL for Data Engineering">
+          <a class="certx-btn"
+             href="/assets/images/certifications/cert-sql-for-data-engineering.pdf"
+             target="_blank" rel="noopener"
+             aria-label="View certificate for SQL for Data Engineering">
             View certificate
           </a>
         </footer>
