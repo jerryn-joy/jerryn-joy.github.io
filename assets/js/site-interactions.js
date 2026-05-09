@@ -64,6 +64,15 @@ document.addEventListener('DOMContentLoaded', function () {
     onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
   }
 
+  // Prevent active nav links from scrolling the page to the top
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', function (e) {
+      if (this.classList.contains('active')) {
+        e.preventDefault();
+      }
+    });
+  });
+
   // Mobile nav toggle (if present)
 const toggle = document.querySelector('.mobile-toggle');
 if (toggle) {

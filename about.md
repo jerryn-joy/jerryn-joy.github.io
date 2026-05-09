@@ -1,89 +1,93 @@
 ---
 layout: layout
 title: "About • Jerryn Joy"
-description: "About Jerryn Joy — background and philosophy."
+description: "About Jerryn Joy — AI systems, automation, and operational thinking."
 permalink: /about/
 ---
 
-<!-- ============== ABOUT (modern, matches example layout but uses your design tokens) ============== -->
-<section class="about about--modern">
+<section class="hero about">
   <div class="container">
 
-    <!-- Header -->
-    <header class="about-header section-header">
-      <h1 class="section-title">Building smarter businesses with customer-focused automation.</h1>
-    </header>
+    <div class="section-header">
+      <h1 class="section-title">Building intelligent systems that simplify operations</h1>
+      <p class="about-sub">AI workflows, automation systems, and operational process design.</p>
+    </div>
 
-        <!-- Stats (3-up) -->
-    <section class="about-stats" aria-label="Quick stats">
-      <div class="about-stat">
-        <span class="about-stat__num">3+</span>
-        <span class="about-stat__label">Years in Automation</span>
+    <!-- Key metrics strip -->
+    <section class="about-metrics" aria-label="Key metrics">
+      <div class="metric">
+        <div class="metric-number">3+</div>
+        <div class="metric-copy">years in automation & AI systems</div>
       </div>
-      <div class="about-stat">
-        <span class="about-stat__num">10+</span>
-        <span class="about-stat__label">AI / SaaS Integrations</span>
+      <div class="metric">
+        <div class="metric-number">10+</div>
+        <div class="metric-copy">end-to-end workflow systems built</div>
       </div>
-      <div class="about-stat">
-        <span class="about-stat__num">500+</span>
-        <span class="about-stat__label">Hours of Work Automated</span>
+      <div class="metric">
+        <div class="metric-number">500+</div>
+        <div class="metric-copy">hours of manual work automated</div>
       </div>
     </section>
 
-    <!-- Content grid -->
+    <!-- Two-column grid -->
     <div class="about-grid">
-      <!-- Journey (left) -->
-      <article class="about-journey">
-        <h2 class="about-h2">My Background and Focus</h2>
 
+      <!-- Left: bullets + process strip + closing note -->
+      <article class="about-journey">
         <ul class="about-bullets">
-          <li>I am a dedicated <strong>Automation Specialist</strong> with a strong track record of building <strong>scalable, AI-enhanced workflows</strong> using <strong>Make.com</strong>, <strong>Zapier</strong>, <strong>n8n</strong>, and <strong>Power Automate</strong>.</li>
-          <li>With hands-on experience in <strong>business development</strong> and <strong>sales</strong>, I understand customer pain points and turn them into digital solutions. Having onboarded and supported <strong>50+ international B2B vendors</strong>, I know how to think from the user’s perspective to design processes that truly deliver value.</li>
-          <li>My career combines <strong>automation</strong>, <strong>AI product management</strong>, and <strong>customer-facing roles</strong>, enabling me to create solutions that are both <strong>technically sound</strong> and <strong>commercially impactful</strong> - from <strong>sales pipeline automation</strong> to <strong>chatbots</strong> and <strong>AI-powered tools</strong>. I bring both technical execution and business strategy to the table.</li>
-          <li>I also have a strong background in <strong>project management</strong>, collaborating with <strong>cross-functional teams</strong> and stakeholders to deliver products in <strong>fast-moving environments</strong>.</li>
-          <li><strong>Curious, collaborative, and proactive</strong>, I enjoy exploring new <strong>AI tools</strong> and building side projects that test how technology creates value in real workflows.</li>
+          <li>Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python.</li>
+          <li>Build AI assistants, chatbots, and workflow systems that improve customer experience and reduce operational overhead.</li>
+          <li>Focus on practical, scalable solutions that save time, reduce friction, and support business growth.</li>
         </ul>
+
+        <div class="about-flow">
+          <div class="flow-step">
+            <span class="step-num">01</span>
+            <span class="step-label">Analyze</span>
+          </div>
+          <div class="flow-step">
+            <span class="step-num">02</span>
+            <span class="step-label">Automate</span>
+          </div>
+          <div class="flow-step">
+            <span class="step-num">03</span>
+            <span class="step-label">Optimize</span>
+          </div>
+          <div class="flow-step">
+            <span class="step-num">04</span>
+            <span class="step-label">Scale</span>
+          </div>
+        </div>
+
+        <p class="about-note">I enjoy turning complex operational processes into systems teams can actually use.</p>
       </article>
 
-      <!-- How I Work (right) -->
+      <!-- Right: 2×2 feature card grid -->
       <aside class="about-work">
-        <h2 class="about-h2 about-work__title">How I Work</h2>
         <div class="about-work__grid">
-          <!-- Card 1 -->
           <div class="about-card">
-            <div class="about-card__head">
-              <div class="about-card__icon">⌁</div>
-              <h3>Process-Driven Design</h3>
-            </div>
-            <p> Design first, then automate. I map processes clearly so workflows in Make.com, Zapier, or n8n stay reliable and scalable.</p>
+            <div class="about-card__icon">⌁</div>
+            <h3>Process-first</h3>
+            <p>Workflows before tools.</p>
           </div>
-          <!-- Card 2 -->
           <div class="about-card">
-            <div class="about-card__head">
-              <div class="about-card__icon">★</div>
-              <h3>Practical Implementation</h3>
-            </div>
-            <p> I apply AI where it matters. Chatbots, RAG pipelines or AI agents, they are always measured by real impact: faster responses, lower costs, higher user satisfaction.</p>
+            <div class="about-card__icon">⚡</div>
+            <h3>Practical automation</h3>
+            <p>Systems that reduce friction and save time.</p>
           </div>
-          <!-- Card 3 -->
           <div class="about-card">
-            <div class="about-card__head">
-              <div class="about-card__icon">🤝</div>
-              <h3>Collaboration</h3>
-            </div>
-            <p>I align sales, marketing, and product teams early, share progress often, and minimize project risks to ensure alignment with business objectives</p>
+            <div class="about-card__icon">🤝</div>
+            <h3>Collaborative execution</h3>
+            <p>Solutions built with teams, not around them.</p>
           </div>
-          <!-- Card 4 -->
           <div class="about-card">
-            <div class="about-card__head">
-              <div class="about-card__icon">⚡</div>
-              <h3>Results-Focused Execution</h3>
-            </div>
-            <p> I establish and monitor KPIs like lead conversion, engagement, and accuracy to ensure solutions are measurable and user-friendly.</p>
+            <div class="about-card__icon">📈</div>
+            <h3>Scalable systems</h3>
+            <p>Flexible automation architectures for growth.</p>
           </div>
         </div>
       </aside>
-    </div>
 
+    </div>
   </div>
 </section>
