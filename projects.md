@@ -10,9 +10,6 @@ permalink: /projects/
 
     <div class="section-header">
       <h2 class="section-title">AI-Driven Automation with No/Low-Code Solutions</h2>
-      <p class="contact-sub">
-        A selection of projects where I had the
-      </p>
     </div>
 
     <div class="projects-grid">
@@ -20,24 +17,19 @@ permalink: /projects/
       <!-- Project 1 -->
       <div class="project-card">
         <div class="project-image">
-          <img src="/assets/images/logos/banner-ai-lead-qualification.svg"
+          <img src="/assets/images/logos/banner-ai-lead-qualification.webp"
                alt="Zero-Cost AI Lead Qualification banner"
                width="1200" height="600"
                loading="lazy" decoding="async">
         </div>
         <div class="project-content">
-          <h3 class="project-title">Zero-Cost AI Lead Qualification</h3>
-          <p class="project-description">Automated lead qualification for a hydrogen B2B pipeline, using AI workflow orchestration to preserve privacy and scale outreach.</p>
+          <h3 class="project-title">Zero-Cost Lead Qualification Pipeline</h3>
+          <p class="project-description">A fully automated lead-qualification pipeline built entirely with free tools (Make.com, Airtable, and HubSpot) that collects, scores with an NLP model, and routes the right leads to sales automatically.</p>
           <div class="project-links">
-            <a href="https://github.com/jerryn-joy/lead-qualification-pipeline"
+            <a href="https://github.com/jerryn-joy/zero-cost-lead-qualification-pipeline"
                class="project-link"
                target="_blank" rel="noopener">
-              <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo
-            </a>
-            <a href="https://github.com/jerryn-joy/lead-qualification-pipeline"
-               class="project-link"
-               target="_blank" rel="noopener">
-              <i class="fa-brands fa-github" aria-hidden="true"></i> Code
+              <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
             </a>
           </div>
         </div>
@@ -46,29 +38,44 @@ permalink: /projects/
       <!-- Project 2 -->
       <div class="project-card">
         <div class="project-image">
-          <img src="/assets/images/logos/banner-ai-data-analyst-chatbot.png"
+          <img src="/assets/images/logos/banner-ai-sales-analyst.webp"
                alt="AI Data Analyst Agent banner"
                width="1200" height="600"
                loading="lazy" decoding="async">
         </div>
         <div class="project-content">
-          <h3 class="project-title">AI Data Analyst Agent</h3>
-          <p class="project-description">Built a privacy-friendly AI chatbot for sales insights with n8n orchestration and dynamic charts for business users.</p>
+          <h3 class="project-title">AI Sales Analyst Agent</h3>
+          <p class="project-description">A privacy-friendly AI agent that answers questions about your sales data - connected to Excel Sheets, powered by Groq LLMs, and built on a two-workflow architecture that generates charts on demand.</p>
           <div class="project-links">
-            <a href="https://github.com/jerryn-joy/ai-data-analyst-chatbot"
+            <a href="https://github.com/jerryn-joy/ai-sales-analyst-agent"
                class="project-link"
                target="_blank" rel="noopener">
-              <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Live Demo
-            </a>
-            <a href="https://github.com/jerryn-joy/ai-data-analyst-chatbot"
-               class="project-link"
-               target="_blank" rel="noopener">
-              <i class="fa-brands fa-github" aria-hidden="true"></i> Code
+              <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
             </a>
           </div>
         </div>
       </div>
-
+      
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="/assets/images/logos/banner-access-provisioning.webp"
+               alt="Automated Access Provisioning Workflow banner"
+               width="1200" height="600"
+               loading="lazy" decoding="async">
+        </div>
+        <div class="project-content">
+          <h3 class="project-title">Automated Access Provisioning Workflow</h3>
+          <p class="project-description">An automated system where employees request access via a form, managers approve with one click, and access is assigned automatically - built on two event-driven workflows with full audit logging.</p>
+          <div class="project-links">
+            <a href="https://github.com/jerryn-joy/automated-access-provisioning-workflow"
+               class="project-link"
+               target="_blank" rel="noopener">
+              <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

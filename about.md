@@ -9,23 +9,22 @@ permalink: /about/
   <div class="container">
 
     <div class="section-header">
-      <h1 class="section-title">Building intelligent systems that simplify operations</h1>
-      <p class="about-sub">AI workflows, automation systems, and operational process design.</p>
+      <h1 class="section-title">Building intelligent systems that reduce manual work</h1>
     </div>
 
     <!-- Key metrics strip -->
     <section class="about-metrics" aria-label="Key metrics">
       <div class="metric">
         <div class="metric-number">3+</div>
-        <div class="metric-copy">years in automation & AI systems</div>
+        <div class="metric-copy">Years in automation & AI systems</div>
       </div>
       <div class="metric">
         <div class="metric-number">10+</div>
-        <div class="metric-copy">end-to-end workflow systems built</div>
+        <div class="metric-copy">End-to-end workflow systems built</div>
       </div>
       <div class="metric">
-        <div class="metric-number">500+</div>
-        <div class="metric-copy">hours of manual work automated</div>
+        <div class="metric-number">1000+</div>
+        <div class="metric-copy">Hours of manual work eliminated</div>
       </div>
     </section>
 
@@ -35,9 +34,9 @@ permalink: /about/
       <!-- Left: bullets + process strip + closing note -->
       <article class="about-journey">
         <ul class="about-bullets">
-          <li>Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python.</li>
-          <li>Build AI assistants, chatbots, and workflow systems that improve customer experience and reduce operational overhead.</li>
-          <li>Focus on practical, scalable solutions that save time, reduce friction, and support business growth.</li>
+          <li>I am an AI Automation Specialist based in Stuttgart, Germany.</li>
+          <li>I design and build automated workflows, AI-powered tools, and integration systems that help businesses replace manual processes with scalable, reliable automation.</li>
+          <li>I have worked across sales, marketing, customer support, and internal operations - building everything from CRM automations and AI chatbots to data pipelines and access management systems.</li>
         </ul>
 
         <div class="about-flow">
@@ -58,32 +57,30 @@ permalink: /about/
             <span class="step-label">Scale</span>
           </div>
         </div>
-
-        <p class="about-note">I enjoy turning complex operational processes into systems teams can actually use.</p>
       </article>
 
       <!-- Right: 2×2 feature card grid -->
       <aside class="about-work">
         <div class="about-work__grid">
           <div class="about-card">
-            <div class="about-card__icon">⌁</div>
+            <div class="about-card__icon">🔍</div>
             <h3>Process-first</h3>
-            <p>Workflows before tools.</p>
+            <p>I start by understanding the process, then pick the right tool for it.</p>
           </div>
           <div class="about-card">
             <div class="about-card__icon">⚡</div>
             <h3>Practical automation</h3>
-            <p>Systems that reduce friction and save time.</p>
+            <p>Systems that reduce manual work and save time for the people using them.</p>
           </div>
           <div class="about-card">
             <div class="about-card__icon">🤝</div>
             <h3>Collaborative execution</h3>
-            <p>Solutions built with teams, not around them.</p>
+            <p>I work closely with the people who will use the system.</p>
           </div>
           <div class="about-card">
             <div class="about-card__icon">📈</div>
             <h3>Scalable systems</h3>
-            <p>Flexible automation architectures for growth.</p>
+            <p>Systems that can be extended as the business changes.</p>
           </div>
         </div>
       </aside>

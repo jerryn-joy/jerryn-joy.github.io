@@ -24,13 +24,12 @@ permalink: /certifications/
                  loading="lazy" decoding="async">
           </div>
           <div>
-            <div class="certx-title">Winner - Black Forest Hackathon</div>
+            <div class="certx-title">1st Place - Black Forest Hackathon</div>
             <div class="certx-provider">BadenCampus</div>
           </div>
         </header>
         <div class="certx-body">
-          Built an AI system to automatically validate supplier certificates and detect discrepancies, significantly reducing manual review time.
-          Tools used: Python, GPT-4, MegaParse and MySQL.
+          Built an AI workflow using Python, GPT-4, MegaParse, and MySQL to automatically validate supplier certificates and detect discrepancies, significantly reducing manual review time.
         </div>
         <footer class="certx-footer">
           <div class="certx-date">11 May 2025</div>
@@ -52,12 +51,12 @@ permalink: /certifications/
                  loading="lazy" decoding="async">
           </div>
           <div>
-            <div class="certx-title">LangChain for LLM Application Development</div>
+            <div class="certx-title">LangChain: Retrieval-Augmented Generation</div>
             <div class="certx-provider">DeepLearning.AI</div>
           </div>
         </header>
         <div class="certx-body">
-          Mastered RAG implementation to build intelligent document query systems with persistent memory and multi-step reasoning capabilities to query private documents.
+          Built intelligent document query systems using RAG with persistent memory and multi-step reasoning over private document collections.
         </div>
         <footer class="certx-footer">
           <div class="certx-date">23 Jan 2024</div>
@@ -73,12 +72,12 @@ permalink: /certifications/
                  loading="lazy" decoding="async">
           </div>
           <div>
-            <div class="certx-title">Building in Microsoft Copilot Studio</div>
+            <div class="certx-title">Building Solutions with Microsoft Copilot Studio</div>
             <div class="certx-provider">LinkedIn Learning</div>
           </div>
         </header>
         <div class="certx-body">
-          Developed conversational AI chatbot with custom topics, entities, and API integrations, implementing secure authentication and multi-channel deployment for enterprise environments.
+          Built conversational AI with custom topics, entities, and API integrations, including secure authentication and multi-channel deployment.
         </div>
         <footer class="certx-footer">
           <div class="certx-date">July 06 2024</div>
@@ -105,7 +104,7 @@ permalink: /certifications/
           </div>
         </header>
         <div class="certx-body">
-          Advanced data visualization and ETL transformation of raw data from multiple sources into interactive dashboards with secure sharing and collaboration workflows with Power BI service.
+          Built interactive dashboards with ETL transformations from multiple data sources, including secure sharing via Power BI Service.
         </div>
         <footer class="certx-footer">
           <div class="certx-date">July 21 2024</div>
@@ -127,12 +126,12 @@ permalink: /certifications/
                  loading="lazy" decoding="async">
           </div>
           <div>
-            <div class="certx-title">SQL for Data Engineering: Beginner → Advanced</div>
+            <div class="certx-title">SQL for Data Engineering</div>
             <div class="certx-provider">LinkedIn Learning</div>
           </div>
         </header>
         <div class="certx-body">
-          Comprehensive SQL proficiency from basic queries to advanced data engineering: joins, window functions, stored procedures, and database security management.
+          Comprehensive SQL from basic queries to advanced engineering: joins, window functions, stored procedures, and database security.
         </div>
         <footer class="certx-footer">
           <div class="certx-date">29 Sep 2024</div>

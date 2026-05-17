@@ -29,13 +29,14 @@ permalink: /experience/
                      width="24" height="24">
                 <span class="tl-company">Hyfindr GmbH</span>
               </div>
-              <span class="tl-period">Feb 2024 - Present · 1 yr 7 mo</span>
+              <span class="tl-period">Feb 2024 - Present</span>
             </div>
           </header>
-          <p class="role-summary">Led AI automation initiatives across customer support, sales operations, and internal tooling.</p>
           <ul class="tl-points">
-            <li>Automated conversational workflows that cut response times 70% and improved engagement.</li>
-            <li>Built a RAG pipeline that processed 1,000+ technical documents into structured supplier insights.</li>
+            <li>Developed an AI customer support assistant in Voiceflow that automated 40% of inbound queries and cut average response times by 70%.</li>
+            <li>Built a Python and LangChain-based data extraction pipeline that used LLMs to parse technical datasheets, generate structured outputs, and store results in MySQL.</li>
+            <li>Led a team of five to build a natural language search feature for the Hyfindr website - user traffic grew 25% and product discovery satisfaction improved 50% within three months.</li>
+            <li>Coordinated sprint planning, backlog prioritization, and communication between stakeholders and the technical team to ensure timely delivery.</li>
           </ul>
         </div>
       </article>
@@ -55,13 +56,14 @@ permalink: /experience/
                      width="24" height="24">
                 <span class="tl-company">Hyfindr GmbH</span>
               </div>
-              <span class="tl-period">Sep 2022 - Jan 2024 · 1 yr 5 mo</span>
+              <span class="tl-period">Sep 2022 - Jan 2024</span>
             </div>
           </header>
-          <p class="role-summary">Delivered automation systems that reduced manual work across sales, marketing, and reporting.</p>
           <ul class="tl-points">
-            <li>Built sales automations in Brevo CRM using Make.com, reducing manual tasks 60% and processing 500+ leads monthly.</li>
-            <li>Launched automated reporting and email workflows, cutting report prep time 80% and accelerating decision-making.</li>
+            <li>Designed and implemented a fully automated sales and marketing workflow in Brevo CRM using Make.com and SnapADDY reducing manual work by 30%.</li>
+            <li>Built internal and customer-facing automation workflows in n8n for invoice reminders, event notifications, and RFQ survey emails, improving operational efficiency.</li>
+            <li>Migrated contacts, companies, deals and activity records from Microsoft Dynamics 365 to Brevo CRM, including structured data mapping, validation rules, and data integrity checks.</li>
+            <li>Created documentation and supported internal teams in adopting automated workflows through workshops.</li>
           </ul>
         </div>
       </article>
@@ -81,12 +83,11 @@ permalink: /experience/
                      width="24" height="24">
                 <span class="tl-company">Hyfindr GmbH</span>
               </div>
-              <span class="tl-period">Jan 2023 - Jan 2024 · 1 yr</span>
+              <span class="tl-period">Jan 2023 - Jan 2024</span>
             </div>
           </header>
-          <p class="role-summary">Scaled marketplace growth with vendor onboarding, retention, and data-driven operational improvements.</p>
           <ul class="tl-points">
-            <li>Onboarded 50+ international vendors to increase marketplace reach and support 25% revenue growth.</li>
+            <li>Onboarded 50+ international vendors, supporting 25% revenue growth and expanding marketplace reach.</li>
             <li>Improved vendor retention by 40% through structured feedback loops and process optimization.</li>
           </ul>
         </div>

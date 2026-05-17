@@ -20,7 +20,7 @@ permalink: /
 
         <div class="hero-intro">
           <h1>Hello, I am Jerryn Joy <span class="wave">👋</span></h1>
-          <p class="hero-roles">Business Automation Specialist | AI Product Owner | AI Project Manager</p>
+          <p class="hero-roles">AI Automation Specialist | AI Product Owner</p>
         </div>
       </div>
 
@@ -34,8 +34,8 @@ permalink: /
 
         <div class="hero-bullets">
           <div class="hero-bullet">Design and deliver AI agents, RAG pipelines, and automated workflows with low/no-code tools and Python.</div>
-          <div class="hero-bullet">Build AI assistants, chatbots, and workflow systems that improve customer experience and reduce operational overhead.</div>
-          <div class="hero-bullet">Focus on practical, scalable solutions that save time, reduce friction, and support business growth.</div>
+          <div class="hero-bullet">Build AI assistants, chatbots, and workflow systems that improve customer experience and reduce manual work</div>
+          <div class="hero-bullet">Focus on practical, scalable solutions that save time and support business growth.</div>
         </div>
 
         <div class="cta-buttons">

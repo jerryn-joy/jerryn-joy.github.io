@@ -10,7 +10,6 @@ permalink: /skills/
 
     <header class="skillsx-header">
       <h1 class="skillsx-title">Systems, Tools & Workflow Stack</h1>
-      <p class="about-sub">A compact view of how I combine automation, AI, integrations, and product thinking to deliver practical systems.</p>
     </header>
 
     <div class="skillsx-grid">
@@ -18,78 +17,80 @@ permalink: /skills/
       <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon" aria-hidden="true">⚡</div>
-          <h3 class="skillsx-cat">Automation Systems</h3>
+          <h3 class="skillsx-cat">Automation Platforms</h3>
         </div>
         <div class="skill-tags">
-          <span class="skill-tag">Make.com</span>
           <span class="skill-tag">n8n</span>
+          <span class="skill-tag">Make.com</span>
           <span class="skill-tag">Zapier</span>
-          <span class="skill-tag">Power Automate</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <div class="skillsx-head">
-          <div class="skillsx-icon" aria-hidden="true">💬</div>
-          <h3 class="skillsx-cat">Conversational AI</h3>
-        </div>
-        <div class="skill-tags">
+          <span class="skill-tag">Copilot Studio</span>
+          <span class="skill-tag">Microsoft Power Automate</span>
           <span class="skill-tag">Voiceflow</span>
-          <span class="skill-tag">Microsoft Copilot Studio</span>
-          <span class="skill-tag">Chatbots</span>
-          <span class="skill-tag">RAG agents</span>
         </div>
       </div>
 
       <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon" aria-hidden="true">🧠</div>
-          <h3 class="skillsx-cat">AI Foundations</h3>
+          <h3 class="skillsx-cat">AI & LLM</h3>
         </div>
         <div class="skill-tags">
           <span class="skill-tag">OpenAI API</span>
-          <span class="skill-tag">LangChain</span>
-          <span class="skill-tag">RAG</span>
-          <span class="skill-tag">LLM workflows</span>
+          <span class="skill-tag">LangChain </span>
+          <span class="skill-tag">AI Agents</span>
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">Retrieval-Augmented Generation (RAG)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skillsx-head">
+          <div class="skillsx-icon" aria-hidden="true">🔗</div>
+          <h3 class="skillsx-cat">APIs & Integration</h3>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Webhooks</span>
+          <span class="skill-tag">JSON</span>
+          <span class="skill-tag">OAuth2</span>
         </div>
       </div>
 
       <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon" aria-hidden="true">💻</div>
-          <h3 class="skillsx-cat">Data & Integrations</h3>
+          <h3 class="skillsx-cat">Data & Databases</h3>
         </div>
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
-          <span class="skill-tag">API integration</span>
-          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">MySQL</span>
           <span class="skill-tag">Airtable</span>
+          <span class="skill-tag">Supabase</span>
         </div>
       </div>
 
       <div class="skill-group">
         <div class="skillsx-head">
-          <div class="skillsx-icon" aria-hidden="true">📋</div>
-          <h3 class="skillsx-cat">Product & Operations</h3>
+          <div class="skillsx-icon" aria-hidden="true">🗂️</div>
+          <h3 class="skillsx-cat">CRM Systems</h3>
         </div>
         <div class="skill-tags">
-          <span class="skill-tag">CRM automation</span>
-          <span class="skill-tag">Process design</span>
-          <span class="skill-tag">KPI tracking</span>
-          <span class="skill-tag">Workflow governance</span>
+          <span class="skill-tag">HubSpot</span>
+          <span class="skill-tag">Brevo</span>
+          <span class="skill-tag">Microsoft Dynamics 365</span>
         </div>
       </div>
 
       <div class="skill-group">
         <div class="skillsx-head">
           <div class="skillsx-icon" aria-hidden="true">🤝</div>
-          <h3 class="skillsx-cat">Collaboration & Delivery</h3>
+          <h3 class="skillsx-cat">Product & Delivery</h3>
         </div>
         <div class="skill-tags">
-          <span class="skill-tag">Stakeholder alignment</span>
-          <span class="skill-tag">Vendor onboarding</span>
-          <span class="skill-tag">Agile delivery</span>
-          <span class="skill-tag">Operational handoffs</span>
+          <span class="skill-tag">Agile / Scrum</span>
+          <span class="skill-tag">Sprint Planning</span>
+          <span class="skill-tag">Backlog Grooming</span>
+          <span class="skill-tag">Stakeholder Management</span>
         </div>
       </div>
 

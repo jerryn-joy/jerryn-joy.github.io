@@ -9,9 +9,9 @@ permalink: /contact/
   <div class="container">
 
     <div class="contact-cta">
-      <h2 class="contact-hero">Let us Connect and Build Something Amazing!</h2>
+      <h2 class="contact-hero">Let us Connect</h2>
       <p class="contact-sub">
-        I am always excited to explore new opportunities and innovative projects. If you are looking for someone who delivers impact, that is me.
+        I open to roles in AI automation, business workflow automations, and AI product development - remote or on-site across Germany and Europe
       </p>
     </div>
 
