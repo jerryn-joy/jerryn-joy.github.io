@@ -99,5 +99,5 @@ Please credit the original if you use it as a base.
 
 ## Contact
 
-- [Email](jerrynjoy.jj@gmail.com)
+- [Email](mailto:jerrynjoy.jj@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/jerryn-cheenical-joy/)
